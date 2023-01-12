@@ -1,0 +1,3290 @@
+@font-face {
+  font-family : 'FuturaLight';
+  font-style  : normal;
+  font-weight : normal;
+  src         : url('../fonts/futuralight/futura_light_bt-webfont.eot');
+  src         : url('../fonts/futuralight/futura_light_bt-webfont.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/futuralight/futura_light_bt-webfont.woff') format('woff'),
+                url('../fonts/futuralight/futura_light_bt-webfont.ttf') format('truetype'),
+                url('../fonts/futuralight/futura_light_bt-webfont.svg#arialbold') format('svg');
+}
+
+@font-face {
+  font-family : 'FuturaBook';
+  font-style  : normal;
+  font-weight : normal;
+  src         : url('../fonts/futurabook/futubk__-webfont.eot');
+  src         : url('../fonts/futurabook/futubk__-webfont.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/futurabook/futubk__-webfont.woff') format('woff'),
+                url('../fonts/futurabook/futubk__-webfont.ttf') format('truetype'),
+                url('../fonts/futurabook/futubk__-webfont.svg#arialbold') format('svg');
+}
+
+@font-face {
+  font-family : 'FuturaBC';
+  font-style  : normal;
+  font-weight : normal;
+  src         : url('../fonts/futurabold/futura-bold-webfont.eot');
+  src         : url('../fonts/futurabold/futura-bold-webfont.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/futurabold/futura-bold-webfont.woff') format('woff'),
+                url('../fonts/futurabold/futura-bold-webfont.ttf') format('truetype'),
+                url('../fonts/futurabold/futura-bold-webfont.svg#arialbold') format('svg');
+}
+
+@charset "utf-8";
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin         : 0;
+  padding        : 0;
+  border         : 0;
+  vertical-align : baseline;
+  font           : inherit;
+  font-size      : 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display : block;
+}
+
+body,
+html {
+  height : 100%;
+}
+
+body {
+  color                   : #fff;
+  background              : #000;
+  font-family             : Arial,
+                            Helvetica,
+                            sans-serif;
+  font-weight             : normal;
+  -webkit-font-smoothing  : antialiased;
+  font-smoothing          : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  line-height             : 1;
+}
+
+ol,
+ul {
+  list-style : none;
+}
+
+blockquote,
+q {
+  quotes : none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content : '';
+  content : none;
+}
+
+table {
+  border-collapse : collapse;
+  border-spacing  : 0;
+}
+
+a {
+  text-decoration : none;
+}
+
+* .ltie9-notice-fixed,
+.ltie9-notice-fixed {
+  z-index     : 1001;
+  zoom        : 1;
+  position    : fixed;
+  top         : 0;
+  left        : 0;
+  width       : 205px;
+  background  : #23100d;
+  line-height : 76px;
+}
+
+.ltie9-notice-fixed p {
+  display        : inline-block;
+  padding        : 0 12px;
+  vertical-align : middle;
+  font-size      : 12px;
+  line-height    : 19px;
+}
+
+.ltie9-notice-fixed p a {
+  display     : block;
+  color       : #df5f46;
+}
+
+.backtosite {
+  display     : block;
+  width       : 398px;
+  height      : 54px;
+  margin      : 30px auto;
+  background  : rgba(255, 255, 255, .9);
+  text-align  : center;
+  line-height : 54px;
+}
+
+.error-message {
+  text-align  : center;
+  font-size   : 22px;
+}
+
+.background {
+  width           : 100%;
+  height          : 100%;
+  min-height      : 100%;
+  padding         : 0;
+  background-size : cover;
+}
+
+.background.home {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #000 url('../images/cr7_stadium_background.jpg') no-repeat top center;
+}
+
+.background.home.b404 {
+  background      : #000 url('../images/back404.jpg') no-repeat top center;
+  background-size : cover;
+}
+
+.message-error {
+  max-width : 960px;
+  margin    : 520px auto;
+}
+
+.background.home2 {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  overflow   : hidden;
+  background : #000;
+}
+
+.body-home {
+  overflow : hidden;
+}
+
+.body-home .title {
+  display    : block;
+  position   : relative;
+  top        : 60%;
+  width      : 100%;
+  color      : #fff;
+  color      : rgba(255, 255, 255, .4);
+  text-align : center;
+  font-size  : 58px;
+}
+
+.body-home .logo-home {
+  position           : relative;
+  top                : 50%;
+  margin-top         : -100px;
+  -moz-transition    : all 1s linear;
+  -ms-transition     : all 1s linear;
+  -webkit-transition : all 1s linear;
+}
+
+.body-home .ronaldo {
+  position           : absolute;
+  top                : 0;
+  width              : 100%;
+  height             : 921px;
+  opacity            : 0;
+  background         : url('../images/cr7_landing_photo.png?v=2.0') no-repeat top center;
+  -moz-transition    : all 1s linear;
+  -ms-transition     : all 1s linear;
+  -webkit-transition : all 1s linear;
+}
+
+.body-home .ronaldo.fade {
+  opacity : 1;
+}
+
+.body-home .welcome {
+  position           : absolute;
+  top                : 365px;
+  width              : 100%;
+  height             : 94px;
+  opacity            : 0;
+  background         : url('../images/cr7_welcome_text.png') no-repeat top center;
+  -webkit-transition : all 1s 1.1s linear;
+}
+
+.body-home .welcome.fade {
+  opacity : 1;
+}
+
+.body-home .logo-home.blur {
+  opacity : 0;
+}
+
+.home2 .video {
+  z-index    : -4;
+  position   : absolute;
+  width      : auto;
+  min-width  : 100%;
+  height     : auto;
+  min-height : 100%;
+  overflow   : hidden;
+}
+
+.ronaldo-wrapper {
+  position : fixed;
+  top      : 0;
+  left     : 0;
+  width    : 100%;
+  height   : 100%;
+}
+
+.home2 .ronaldo,
+.main-content .ronaldo {
+  display    : none;
+  width      : 960px;
+  height     : 932px;
+  margin     : 0 auto;
+  background : url('../images/ronaldohome.png?v=1.5') no-repeat;
+  cursor     : pointer;
+}
+
+.background.carriera {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backcarriera.jpg') no-repeat top center;
+}
+
+.background.palmares {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backpalmares.jpg') no-repeat top center;
+}
+
+.background.rai {
+  z-index         : -5;
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  background      : #000 url('../images/backrai.jpg') no-repeat top center;
+  background-size : cover;
+}
+
+.background.figc {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backfigc.jpg') no-repeat top center;
+}
+
+.background.summercamp {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backsummercamp.jpg') no-repeat top center;
+}
+
+.background.insegnamento {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backinsegnamento.jpg') no-repeat top center;
+}
+
+.background.istruzione {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backistruzione.jpg') no-repeat top center;
+}
+
+.background.gestione {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backgestione.jpg') no-repeat top center;
+}
+
+.background.contatti {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/backcontatti.jpg') no-repeat top center;
+}
+
+.background.allestimento {
+  z-index         : -5;
+  position        : fixed;
+  top             : 0;
+  left            : 0;
+  background      : #000 url('../images/backallestimento.jpg') no-repeat top center;
+  background-size : cover;
+}
+
+.main-wrapper {
+  position : relative;
+  margin   : 0 auto;
+}
+
+.sliderFixed {
+  z-index  : 1000;
+  position : fixed;
+  top      : 0;
+  left     : 0;
+  width    : 100%;
+}
+
+.sliderWrapper {
+  width  : 100%;
+  margin : 0 auto;
+}
+
+#slider {
+  display : none;
+}
+
+#slider,
+.arrowWrapper {
+  background : rgba(34, 51, 81, .9);
+}
+
+.arrowWrapper span {
+  display    : inline-block;
+  width      : 52px;
+  height     : 22px;
+  margin     : 0 auto;
+  background : url('../images/arrow-show.png') no-repeat;
+}
+
+.arrowWrapper span.active {
+  background : url('../images/arrow-hide.png') no-repeat!important;
+}
+
+.arrowWrapper {
+  width  : 88px;
+  height : 38px;
+  margin : 0 auto;
+}
+
+.arrowWrapper a {
+  display     : block;
+  width       : 88px;
+  height      : 38px;
+  text-align  : center;
+  line-height : 38px;
+}
+
+.arrowWrapper img {
+  display        : inline-block;
+  margin         : 0 auto;
+  vertical-align : middle;
+}
+
+.fixedMenu ul,
+.gallery-menu,
+.menu,
+.social,
+ul.slider-menu {
+  text-align : center;
+}
+
+.fixedMenu li,
+.fixedSubMenu li,
+.gallery-menu li,
+.menu li {
+  display        : inline;
+  text-transform : uppercase;
+}
+
+.slider-menu li {
+  display        : block;
+  border-top     : solid 1px #fff;
+  text-transform : uppercase;
+}
+
+.slider-menu li:last-child {
+  display        : block;
+  border-bottom  : solid 1px #fff;
+  text-transform : uppercase;
+}
+
+.menu a {
+  display            : inline-block;
+  width              : 16%;
+  margin-top         : 40px;
+  color              : #fff;
+  opacity            : .6;
+  font-family        : 'FuturaBook';
+  font-size          : 18px;
+  -webkit-transition : opacity .6s;
+  transition         : opacity .6s;
+}
+
+.slider-menu a {
+  display     : inline-block;
+  width       : 100%;
+  color       : #fff;
+  opacity     : 1;
+  font-family : 'FuturaLight';
+  font-size   : 24px;
+  line-height : 48px;
+}
+
+.menu a:hover {
+  opacity : 1;
+}
+
+.fixedMenuWrapper {
+  z-index    : 998;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  width      : 100%;
+  max-height : 76px;
+}
+
+.fixedMenu {
+  height     : 38px;
+  background : rgba(34, 51, 81, .9);
+}
+
+.fixedSubMenu {
+  height     : 38px;
+  background : rgba(34, 51, 81, .5);
+  box-shadow : 0 5px 5px -5px rgba(34, 51, 81, .6);
+}
+
+/*.fixedMenu.special {
+  background : url('../images/shadow_topbar.png') repeat-x;
+}*/
+
+.fixedSubMenu.special {
+  background : url('../images/shadow_2ndbar.png') repeat-x;
+}
+
+.fixedMenu.none {
+  background : 0;
+}
+
+.fixedSubMenu.products {
+  background : rgba(51, 51, 51, .5);
+}
+
+.fixedMenu ul {
+  width  : 960px;
+  margin : 0 auto;
+}
+
+ul.lang-menu {
+  width : 100%;
+}
+
+.fixedSubMenu ul {
+  width  : 200px;
+  margin : 0 auto;
+}
+
+.fixedSubMenu ul.news-filter {
+  width : 400px;
+}
+
+.fixedSubMenu ul.products-filter {
+  width : 500px;
+}
+
+.fixedSubMenu li {
+  display : block;
+  float   : left;
+}
+
+.fixedMenu.gray {
+  background : rgba(51, 51, 51, .6);
+}
+
+.fixedMenu a {
+  display            : inline-block;
+  width              : 9%;
+  color              : #fff;
+  opacity            : .6;
+  font-family        : 'FuturaBook';
+  font-size          : 12px;
+  line-height        : 38px;
+  -webkit-transition : opacity .6s;
+}
+
+.fixedSubMenu a {
+  display            : inline-block;
+  width              : 100px;
+  color              : #fff;
+  opacity            : .6;
+  text-align         : center;
+  font-family        : 'FuturaBook';
+  font-size          : 12px;
+  line-height        : 38px;
+  -webkit-transition : opacity .6s;
+}
+
+.fanwall-bar .right {
+  line-height : 36px;
+}
+
+.fixedSubMenu a.refresh {
+  width          : auto!important;
+  padding        : 0 1em;
+  background     : #df5f46;
+  vertical-align : middle;
+  line-height    : 38px;
+}
+
+.fixedMenu a:hover {
+  opacity : 1;
+}
+
+.fixedSubMenu a.refresh img {
+  display        : none;
+  vertical-align : middle;
+}
+
+.fixedMenu .lang-menu a {
+  width : 85px;
+}
+
+.fixedMenu .lang-menu li:last-child {
+  padding-left : 5px;
+  border-left  : solid 1px rgba(255, 255, 255, .6);
+}
+
+.fixedMenu .lang-menu a.active,
+.fixedMenu .main-menu a.active {
+  opacity     : 1;
+  font-family : 'CR7FontBold';
+}
+
+.fixedSubMenu a.active,
+.fixedSubMenu a:hover {
+  opacity : 1;
+}
+
+.fixedSubMenu a.active {
+  background : rgba(34, 51, 81, 1);
+}
+
+.fixedSubMenu .products-filter a.active {
+  background : rgba(51, 51, 51, 1);
+}
+
+.fixedMenu a.double {
+  width : 20%;
+}
+
+.fixedMenu a.down {
+  width       : 90px;
+  background  : rgba(34, 51, 81, .6) url('../images/arrow-show.png') no-repeat center;
+  text-indent : -9999px;
+}
+
+.stats-container {
+  padding-top : 76px;
+}
+
+ul.stats-menu {
+  width          : 960px;
+  height         : 40px;
+  margin         : 0 auto;
+  padding-bottom : 1px;
+  border-bottom  : solid 1px #df5f46;
+  text-align     : center;
+}
+
+ul.stats-menu li {
+  display        : inline-block;
+  margin-right   : 2em;
+  text-transform : uppercase;
+}
+
+ul.stats-menu a {
+  display            : inline-block;
+  padding            : 0 1px;
+  color              : #fff;
+  opacity            : .6;
+  border-bottom      : solid 4px transparent;
+  text-align         : center;
+  font-family        : 'CR7FontBold';
+  font-size          : 14px;
+  line-height        : 38px;
+  -webkit-transition : opacity .6s;
+}
+
+ul.stats-menu a:hover {
+  opacity : 1;
+}
+
+ul.stats-menu a.active {
+  color         : #df5f46;
+  opacity       : 1;
+  border-bottom : solid 4px #df5f46;
+}
+
+ul.stats a:hover {
+  opacity : 1;
+}
+
+.stats-box {
+  display        : none;
+  width          : 960px;
+  margin         : 0 auto;
+  padding-bottom : 30px;
+  overflow       : hidden;
+  text-align     : center;
+  font-size      : 0;
+  white-space    : nowrap;
+}
+
+.stats-box .stats-panel {
+  display        : inline-block;
+  position       : relative;
+  left           : 0;
+  width          : 960px;
+  overflow       : hidden;
+  vertical-align : top;
+  font-size      : 0;
+}
+
+.stats-box .match-container {
+  overflow    : hidden;
+  font-size   : 0;
+  white-space : nowrap;
+}
+
+.stats-box .match-panel {
+  display        : inline-block;
+  position       : relative;
+  left           : 0;
+  width          : 960px;
+  vertical-align : top;
+}
+
+.stats-box.active {
+  display : block;
+}
+
+.stats-box .inline-circle {
+  display               : inline-block;
+  width                 : 135px;
+  height                : 135px;
+  margin                : 5px;
+  color                 : #fff;
+  -moz-border-radius    : 135px;
+  -webkit-border-radius : 135px;
+  border-radius         : 135px;
+  background            : #df5f46;
+  -moz-transition       : all .3s ease-in-out;
+  -ms-transition        : all .3s ease-in-out;
+  -o-transition         : all .3s ease-in-out;
+  -webkit-transition    : all .3s ease-in-out;
+  transition            : all .3s ease-in-out;
+}
+
+.stats-box .inline-circle.goals {
+  width                 : 180px;
+  height                : 180px;
+  margin                : 2px;
+  -moz-border-radius    : 180px;
+  -webkit-border-radius : 180px;
+  border-radius         : 180px;
+}
+
+.stats-box .row2 .inline-circle {
+  margin : -20px 20px -25px 20px;
+}
+
+.stats-box .middle-text {
+  display  : inline-block;
+  position : absolute;
+  top      : 50%;
+  left     : 50%;
+  width    : 70%;
+  margin   : -25% 0 0 -35%;
+}
+
+.stats-box .inline-circle.scale {
+  opacity           : .8;
+  -ms-transform     : scale(1);
+  -o-transform      : scale(1);
+  -webkit-transform : scale(1);
+  transform         : scale(1);
+}
+
+.stats-box .inline-circle.scaleMore {
+  opacity           : .8;
+  -ms-transform     : scale(1.2);
+  -o-transform      : scale(1.2);
+  -webkit-transform : scale(1.2);
+  transform         : scale(1.2);
+}
+
+.stats-box .inline-circle:hover {
+  opacity           : 1;
+  -ms-transform     : scale(1.2);
+  -o-transform      : scale(1.2);
+  -webkit-transform : scale(1.2);
+  transform         : scale(1.2);
+}
+
+.stats-box .row.stats {
+  padding       : 20px 0;
+  border-bottom : solid 1px #df5f46;
+}
+
+.stats-box .powered-by {
+  padding        : 10px 0;
+  text-align     : right;
+  text-transform : uppercase;
+  font-family    : 'FuturaBook';
+  font-size      : 12px;
+  line-height    : 25px;
+}
+
+.stats-box .powered-by a {
+  opacity            : .5;
+  -moz-transition    : opacity .5s ease;
+  -ms-transition     : opacity .5s ease;
+  -webkit-transition : opacity .5s ease;
+  transition         : opacity .5s ease;
+}
+
+.stats-box .powered-by a:hover {
+  opacity : 1;
+}
+
+.stats-box .match {
+  position      : relative;
+  padding       : 10px 0;
+  border-bottom : solid 1px #df5f46;
+}
+
+.stats-box .match h3 {
+  color          : #fff;
+  text-align     : center;
+  text-transform : uppercase;
+  font-family    : 'FuturaBook';
+  font-size      : 24px;
+  line-height    : 1.4em;
+}
+
+.stats-box .match .arrow {
+  display            : block;
+  position           : absolute;
+  top                : 50%;
+  width              : 29px;
+  height             : 32px;
+  margin-top         : -16px;
+  opacity            : .6;
+  overflow           : hidden;
+  text-indent        : -9999px;
+  -moz-transition    : opacity .3s ease;
+  -ms-transition     : opacity .3s ease;
+  -webkit-transition : opacity .3s ease;
+  transition         : opacity .3s ease;
+}
+
+.stats-box .match .arrow:hover {
+  opacity : 1;
+}
+
+.stats-box .match .arrow.prev {
+  left       : 0;
+  background : url('../images/prev-gal.png') no-repeat;
+}
+
+.stats-box .match .arrow.next {
+  right      : 0;
+  background : url('../images/next-gal.png') no-repeat;
+}
+
+.stats-box .match h3 .vs {
+  text-transform : lowercase;
+  font-size      : 18px;
+}
+
+.stats-box .match h4 {
+  color          : #df5f46;
+  text-align     : center;
+  text-transform : uppercase;
+  font-family    : 'CR7FontBold';
+  font-size      : 14px;
+  line-height    : 1.4em;
+}
+
+.stats-box .inline-block {
+  display            : inline-block;
+  position           : relative;
+  text-align         : right;
+  vertical-align     : middle;
+  font-family        : 'FuturaLight';
+  -webkit-transition : all .2s;
+}
+
+.stats-box .inline-block:hover {
+  z-index           : 100;
+  opacity           : 1;
+  -webkit-transform : scale(1.2);
+}
+
+.stats-box .inline-block.left {
+  width : 350px;
+}
+
+.stats-box .inline-block.right {
+  width : 400px;
+}
+
+.stats-box .inline-block.left.total-minutes {
+  width : 250px;
+}
+
+.stats-box .inline-block.left.cards {
+  width : 310px;
+}
+
+.stats-box .inline-block.short-mega {
+  width : 110px;
+}
+
+.stats-box .inline-block.assists {
+  width       : 100px;
+  margin-left : 145px;
+}
+
+.stats-box .inline-block .value {
+  display   : inline-block;
+  font-size : 160px;
+}
+
+.stats-box .inline-block .value.behind {
+  z-index  : -1;
+  position : absolute;
+  top      : 0;
+  right    : 0;
+  opacity  : .3;
+}
+
+.stats-box .inline-block.short .value {
+  font-size : 85px;
+}
+
+.stats-box .inline-block.graph {
+  position    : relative;
+  width       : 105px;
+  padding-top : 50px;
+}
+
+.stats-box .inline-block.graph.left {
+  padding-right : 80px;
+}
+
+.stats-box .inline-block.graph.right {
+  padding-left : 80px;
+}
+
+.stats-box .inline-block.graph .bar {
+  display         : inline-block;
+  position        : absolute;
+  right           : 5px;
+  bottom          : 0;
+  width           : 63px;
+  height          : 140px;
+  background      : #bb5541;
+  background-size : 100px;
+}
+
+.stats-box .inline-block.graph.right .bar {
+  left : 5px;
+}
+
+.stats-box .inline-block.graph .bar.lower {
+  height     : 110px;
+  background : #86463a;
+}
+
+.stats-box .inline-block.graph .value {
+  font-size : 60px;
+}
+
+.stats-box .inline-block.graph.left .behind {
+  top    : auto;
+  right  : auto;
+  bottom : 18px;
+  left   : 0;
+}
+
+.stats-box .inline-block.graph.right .behind {
+  top    : auto;
+  bottom : 18px;
+}
+
+.shots .value.behind {
+  bottom : 36px!important;
+}
+
+.stats-box .inline-block .title {
+  display        : block;
+  text-transform : uppercase;
+  font-size      : 18px;
+}
+
+.stats-box .red-cards,
+.stats-box .yellow-cards {
+  display       : inline-block;
+  width         : 107px;
+  height        : 65px;
+  margin-bottom : 12px;
+  margin-left   : 2px;
+  text-align    : center;
+  font-family   : 'FuturaLight';
+  font-size     : 32px;
+  line-height   : 65px;
+}
+
+.stats-box .red-cards {
+  background : #bd4747;
+}
+
+.stats-box .yellow-cards {
+  background : #d1ae38;
+}
+
+.stats-box .row .sep {
+  display        : inline-block;
+  width          : 30px;
+  height         : 200px;
+  margin         : 0 30px;
+  background     : url('../images/stats-sep.png') center center no-repeat;
+  vertical-align : middle;
+}
+
+.stats-box .powered-by img {
+  display     : inline-block;
+  margin-left : 10px;
+}
+
+.header-columns {
+  text-align     : center;
+  vertical-align : top;
+}
+
+.header-columns .col {
+  display        : block;
+  width          : 30%;
+  margin         : 0 auto;
+  vertical-align : top;
+}
+
+.header-columns .col.slider-menu {
+  display : none;
+}
+
+.header-columns .col.info {
+  height      : 220px;
+  padding-top : 50px;
+  text-align  : center;
+  font-family : 'FuturaBook';
+  font-size   : 13px;
+  line-height : 18px;
+}
+
+.header-columns .col.info strong {
+  font-family : 'CR7FontBold';
+}
+
+.logo {
+  margin     : 0 auto;
+  text-align : center;
+}
+
+ul.social {
+  display        : block;
+  width          : 360px;
+  margin         : 0 auto;
+  padding-top    : 50px;
+  padding-bottom : 50px;
+}
+
+.caption ul.social {
+  display : inline-block;
+  width   : auto;
+  margin  : 0;
+  padding : 0;
+}
+
+.social li {
+  display      : inline;
+  margin-right : 10px;
+  text-indent  : -9999px;
+}
+
+.social li.nw {
+  display        : block;
+  margin-top     : 1.5em;
+  margin-right   : 0;
+  text-transform : uppercase;
+  text-indent    : 0;
+  font-size      : 12px;
+  font-family : 'FuturaBook';
+}
+
+.social li.nw a,
+.social li.nw a:link {
+  display        : inline-block;
+  width          : 200px;
+  height         : auto;
+  background     : 0;
+  text-transform : uppercase;
+  text-indent    : 0;
+  font-size      : 14px;
+  font-family : 'FuturaBook';
+}
+
+.social li.no-m,
+.social li:last-child {
+  margin-right : 0;
+}
+
+.social a,
+.social a:link {
+  display            : inline-block;
+  width              : 48px;
+  height             : 48px;
+  margin-bottom      : 10px;
+  opacity            : .6;
+  background         : url('../images/social-stuff.png') no-repeat;
+  background-size    : auto;
+  text-indent        : -9999px;
+  -webkit-transition : opacity .5s ease-in-out;
+  transition         : opacity .5s ease-in-out;
+}
+
+.social a:hover {
+  opacity : 1;
+}
+
+.caption .social a,
+.caption .social a:link {
+  width         : 27px;
+  height        : 27px;
+  margin-bottom : 0;
+  background    : url('../images/social.png') no-repeat;
+}
+
+.caption .social a.tw {
+  background-position : -47px 0;
+}
+
+.caption .social a.tu {
+  background-position : -94px 0;
+}
+
+.social a.tw {
+  background-position : -65px 0;
+}
+
+.social a.gp {
+  background-position : -130px 0;
+}
+
+.social a.tu {
+  background-position : -195px 0;
+}
+
+.social a.yt {
+  background-position : 0 -64px;
+}
+
+.social a.pi {
+  background-position : -65px -66px;
+}
+
+.social a.in {
+  background-position : -130px -66px;
+}
+
+.social a.ma {
+  background-position : -195px -66px;
+}
+
+.gallery-wrapper {
+  padding-top : 63px;
+}
+
+.gallery-container,
+.gallery-wrapper {
+  width  : 954px;
+  margin : 0 auto;
+}
+
+.gallery-container {
+  clear : both;
+}
+
+.gallery-container:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+.gallery-container .item {
+  width    : 318px;
+  float    : left;
+  margin   : 0;
+  padding  : 0;
+  overflow : hidden;
+}
+
+.gallery-menu {
+  margin-bottom : 10px;
+}
+
+.gallery-menu li {
+  margin-right : 50px;
+}
+
+.gallery-menu li:last-child {
+  margin-right : 0;
+}
+
+.gallery-menu li a {
+  color       : rgba(34, 51, 81, 1);
+  font-family : 'FuturaLight';
+  font-size   : 22px;
+  line-height : 33px;
+}
+
+.gallery-menu li.active a {
+  font-family : 'FuturaBC';
+}
+
+a img,
+img {
+  border         : 0;
+  vertical-align : top;
+}
+
+.seasons-wrapper {
+  position    : relative;
+  width       : 1362px;
+  padding-top : 63px;
+  text-align  : center;
+}
+
+h2.title {
+  display        : inline;
+  color          : rgba(34, 51, 81, 1);
+  text-transform : uppercase;
+  font-family    : 'FuturaLight';
+  font-size      : 24px;
+}
+
+.seasons-container .item {
+  position : relative;
+  width    : 681px;
+  height   : 284px;
+  float    : left;
+}
+
+.seasons-container .item a {
+  display            : block;
+  width              : 681px;
+  height             : 284px;
+  opacity            : .75;
+  -webkit-transition : opacity .5s ease;
+}
+
+.seasons-container .item a:hover {
+  opacity           : 1;
+  -webkit-transform : translateZ(0);
+}
+
+.seasons-container .item img {
+  display : block;
+}
+
+.seasons-container .item .caption {
+  z-index     : 2;
+  display     : inline-block;
+  position    : absolute;
+  top         : 50%;
+  left        : 50%;
+  width       : 132px;
+  margin-top  : -20px;
+  margin-left : -66px;
+  padding     : 10px;
+  color       : #fff;
+  background  : rgba(34, 51, 81, .8);
+  font-family : 'FuturaLight';
+  font-size   : 24px;
+}
+
+.seasons-container:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+.jumpwrapper {
+  z-index    : 5;
+  position   : absolute;
+  top        : 0;
+  right      : 0;
+  width      : 150px;
+  background : rgba(34, 51, 81, 1);
+}
+
+.jumpwrapper.pink {
+  background : rgba(235, 0, 139, 1);
+}
+
+#jump-slider {
+  display : none;
+}
+
+.sponsors-container {
+  display : none;
+}
+
+.stats-container,
+.timeline-wrapper {
+  opacity : 0;
+}
+
+.news-wrapper {
+  padding-top : 38px;
+}
+
+.fanwall-wrapper,
+.news-container,
+.news-wrapper {
+  max-width : 1362px;
+  margin    : 0 auto;
+}
+
+.fanwall-wrapper:after,
+.news-container:after {
+  content : ' ';
+  display : table-cell;
+  height  : 0;
+  float   : none;
+  clear   : both;
+}
+
+.news-container .item {
+  width    : 33.3%;
+  float    : left;
+  overflow : hidden;
+}
+
+.news-container .item.no-image {
+  min-height : 300px;
+  background : #df5f46;
+}
+
+.news-container .item a {
+  display  : block;
+  position : relative;
+}
+
+.news-container .item img {
+  width  : 100%;
+  height : auto;
+}
+
+.gallery-container .caption,
+.news-container .caption,
+.sponsors-container .caption {
+  z-index     : 2;
+  display     : none;
+  position    : absolute;
+  top         : 0;
+  left        : 0;
+  width       : 100%;
+  color       : #fff;
+  background  : rgba(34, 51, 81, .9);
+  font-family : 'FuturaLight';
+}
+
+.sponsors-container .caption-fixed {
+  z-index     : 2;
+  position    : absolute;
+  bottom         : 0;
+  left        : 0;
+  width       : 100%;
+  color       : #fff;
+  background  : rgba(34, 51, 81, .9);
+  padding : 10px;
+  /*font-family : 'FuturaLight';*/
+}
+
+.rai .show {
+  padding-left: 21px;
+  background : url('../images/timeline-show.png') no-repeat 2px 1px;
+}
+
+.sponsors-container .caption {
+  font-family : 'FuturaBook';
+}
+
+.news-container .no-image .caption {
+  display    : block;
+  height     : 100%;
+  background : 0;
+}
+
+.news-container .no-image .inner {
+  height : 100%;
+}
+
+.news-container .no-image .inline.down {
+  display : none;
+}
+
+.no-image .inner .middle p {
+  font-size : 22px;
+}
+
+.no-image:hover .inner .middle p {
+  opacity : .1;
+}
+
+.products-container .caption {
+  z-index     : 2;
+  display     : none;
+  position    : absolute;
+  top         : 0;
+  left        : 0;
+  width       : 100%;
+  color       : #fff;
+  background  : rgba(51, 51, 51, .8);
+  font-family : 'FuturaLight';
+}
+
+.caption .inner {
+  position : relative;
+}
+
+.caption .inner .inline {
+  z-index   : 44;
+  display   : block;
+  position  : absolute;
+  font-size : 14px;
+}
+
+.caption .inner .inline.middle {
+  display : block;
+  top     : 40px;
+  left    : 0;
+  width   : 100%;
+}
+
+.news-container .caption .inner .inline.middle {
+  top : 60px;
+}
+
+.caption .inner .inline.middle-mid {
+  display     : block;
+  top         : 50%;
+  left        : 0;
+  width       : 100%;
+  margin-top  : -13px;
+  text-align  : center;
+  font-size   : 22px;
+  line-height : 26px;
+}
+
+.caption .inner .inline.middle-ico {
+  display     : block;
+  top         : 50%;
+  left        : 50%;
+  width       : 78px;
+  height      : 77px;
+  margin-top  : -39px;
+  margin-left : -38px;
+}
+
+.inner .middle p {
+  margin-bottom : 3%;
+  padding-right : 20px;
+  padding-left  : 20px;
+  font-size     : 18px;
+}
+
+.inner .down {
+  bottom : 20px;
+}
+
+.inner .inline.down {
+  width : 100%;
+}
+
+.inner .inline .row.separator {
+  margin         : 20px;
+  padding-bottom : 20px;
+  border-bottom  : solid 1px #fff;
+}
+
+.clearfix {
+  height : 0;
+  float  : none;
+  clear  : both;
+}
+
+.inner .left {
+  float       : left;
+  margin-left : 20px;
+  line-height : 26px;
+}
+
+.fanwall-bar .left,
+.fanwall-bar .right,
+.inner .row.separator .left,
+.inner .row.separator .right,
+.social-bar .left,
+.social-bar .right {
+  margin : 0!important;
+}
+
+.inner .down-left-ico {
+  bottom : 20px;
+  left   : 20px;
+}
+
+.inner .right {
+  float        : right;
+  margin-right : 20px;
+}
+
+a.like {
+  width              : 92px;
+  height             : 29px;
+  opacity            : .45;
+  background         : url('../images/like.png') no-repeat;
+  text-indent        : -9999px;
+  -webkit-transition : all .5s;
+  cursor             : pointer;
+}
+
+a.fire {
+  display            : inline-block;
+  width              : 21px;
+  height             : 27px;
+  margin-right       : 10px;
+  background         : url('../images/onfire.png') no-repeat;
+  text-indent        : -9999px;
+  line-height        : 27px;
+  -webkit-transition : all .5s;
+}
+
+.fire-count {
+  display     : inline-block;
+  height      : 27px;
+  font-size   : 14px;
+  line-height : 27px;
+}
+
+a.fire.active,
+a.fire:hover {
+  background : url('../images/onfire-hover.png') no-repeat;
+}
+
+.caption .social {
+  display : inline-block;
+}
+
+.caption .social li {
+  margin-right : 0;
+  margin-left  : 10px;
+}
+
+.caption .social a {
+  display            : inline-block;
+  margin             : 0;
+  opacity            : .45;
+  -webkit-transition : all .5s;
+}
+
+.caption .social a:hover,
+a.like:hover {
+  opacity : 1;
+}
+
+a.like.blocked {
+  opacity : 1;
+}
+
+span.kick {
+  display       : inline-block;
+  width         : 59px;
+  height        : 28px;
+  margin-bottom : 5px;
+  background    : url('../images/kick-this.png') no-repeat;
+  text-indent   : -9999px;
+}
+
+.facebook_fancybox {
+  text-transform : uppercase;
+  font-family    : 'CR7FontBold';
+}
+
+.sponsors-wrapper {
+  margin      : 0 auto;
+  padding-top : 38px;
+}
+
+.sponsors-container,
+.sponsors-wrapper {
+  max-width : 1362px;
+}
+
+.sponsors-container:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+.sponsors-container .item {
+  position       : relative;
+  width          : 33.33333%;
+  float          : left;
+  color          : #828282;
+  overflow       : hidden;
+  text-align     : center;
+  /*text-transform : lowercase;*/
+  font-size      : 16px;
+}
+
+.sponsors-container .item-fixed {
+  position       : relative;
+  width          : 33.33333%;
+  float          : left;
+  color          : #828282;
+  /*overflow       : hidden;*/
+  text-align     : center;
+  font-size      : 16px;
+}
+
+.sponsors-container .item img {
+  width  : 100%;
+  height : auto;
+}
+
+.sponsors-container .item .negative a {
+  display       : block;
+  margin-bottom : 30px;
+}
+
+.sponsors-container .item .negative {
+  margin-top : -70px!important;
+}
+
+.months-wrapper {
+  position    : relative;
+  width       : 860px;
+  margin      : 0 auto;
+  padding-top : 63px;
+  text-align  : center;
+}
+
+.months-line:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+.months-line .item {
+  width   : 370px;
+  float   : left;
+  padding : 30px;
+}
+
+.months-line .item {
+  font-family : 'FuturaBook';
+  font-size   : 16px;
+  line-height : 24px;
+}
+
+.months-line .item h4 {
+  margin-bottom  : 10px;
+  color          : #df5f46;
+  text-transform : uppercase;
+}
+
+.jumpback {
+  display    : inline-block;
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  padding    : 5px;
+  background : #df5f46;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color : #fff;
+}
+
+.goback:link,
+.goback a,
+.goback a:visited {
+  padding        : 10px;
+  padding-left   : 20px;
+  color          : #fff;
+  background     : url('../images/go-back.png') no-repeat center left;
+  text-transform : uppercase;
+  font-family    : 'FuturaLight';
+  font-size      : 19px;
+  line-height    : 19px;
+}
+
+div.sub {
+  position      : relative;
+  margin-bottom : 25px;
+}
+
+h3.title {
+  display     : inline-block;
+  padding     : 10px;
+  background  : #df5f46;
+  font-family : 'FuturaLight';
+  font-size   : 24px;
+}
+
+.jumpwrapper {
+  width          : 222px;
+  text-transform : uppercase;
+  font-family    : 'FuturaLight';
+  font-size      : 20px;
+}
+
+.jumpwrapper a {
+  display : block;
+  padding : 5px;
+}
+
+.jumpaction {
+  padding : 5px;
+}
+
+a.jump {
+  padding      : 0!important;
+  padding-left : 20px!important;
+  background   : url('../images/mini-show.png') no-repeat center left;
+}
+
+.main-content {
+  width       : 960px;
+  margin      : 0 auto;
+  padding-top : 63px;
+  text-align  : center;
+}
+
+.main-wrapper {
+  width  : 100%;
+  height : 100%;
+}
+
+.home .main-content {
+  height      : 100%;
+  padding-top : 0;
+}
+
+h3.subtitle {
+  margin-top     : 400px;
+  text-transform : uppercase;
+  font-family    : 'FuturaLight';
+  font-size      : 40px;
+  line-height    : 56px;
+}
+
+div.newsletter {
+  z-index     : 5;
+  position    : absolute;
+  top         : 536px;
+  left        : 50%;
+  width       : 460px;
+  margin-left : -230px;
+}
+
+div.newsletter:after {
+  content : '';
+  display : table-cell;
+  float   : left;
+  clear   : both;
+}
+
+div.input,
+div.label {
+  float : left;
+}
+
+div.label {
+  margin-right   : 20px;
+  text-align     : left;
+  text-transform : uppercase;
+  font-family    : 'FuturaBC';
+  font-size      : 16px;
+  line-height    : 18px;
+}
+
+div.input {
+  width      : 251px;
+  height     : 39px;
+  background : url('../images/newsletter-box.png') no-repeat;
+  text-align : left;
+}
+
+div.input .text {
+  width       : 187px;
+  padding     : 8px 60px 8px 2px;
+  border      : 0;
+  background  : 0;
+  font-family : 'FuturaBook';
+  font-size   : 14px;
+}
+
+.products-wrapper {
+  padding-top : 76px;
+}
+
+.products-container,
+.products-wrapper {
+  width  : 972px;
+  margin : 0 auto;
+}
+
+.products-container:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+.products-container .item {
+  width : 324px;
+  float : left;
+}
+
+.products-container .item a {
+  display : block;
+}
+
+.fancybox-skin {
+  border             : none!important;
+  background         : none!important;
+  -moz-box-shadow    : none!important;
+  -webkit-box-shadow : none!important;
+  box-shadow         : none!important;
+}
+
+.cr-close {
+  display     : inline-block;
+  position    : absolute;
+  right       : 1px;
+  width       : 26px;
+  height      : 32px;
+  margin-top  : 20px;
+  overflow    : hidden;
+  background  : url('../images/close-gal.png') no-repeat;
+  text-indent : -9999px;
+}
+
+.cr-next,
+.cr-prev {
+  display     : inline-block;
+  position    : absolute;
+  width       : 29px;
+  height      : 32px;
+  margin-top  : 20px;
+  text-indent : -9999px;
+}
+
+.cr-prev {
+  right      : 77px;
+  background : url('../images/prev-gal.png') no-repeat;
+}
+
+.cr-next {
+  right      : 47px;
+  background : url('../images/next-gal.png') no-repeat;
+}
+
+.fancybox-title-inside-wrap {
+  display     : block;
+  left        : 1px;
+  margin-top  : 15px;
+  padding-top : 0!important;
+}
+
+.fancybox-title-inside-wrap a,
+.fancybox-title-inside-wrap a:link {
+  color          : #eb008b;
+  text-transform : uppercase;
+  font-family    : "FuturaLight";
+  font-size      : 20px;
+}
+
+.fancybox-title-inside-wrap,
+.fancybox-title-inside-wrap span {
+  color          : #000;
+  text-transform : none;
+  font-family    : "FuturaLight"!important;
+  font-size      : 18px!important;
+}
+
+.fancybox-title-inside-wrap span {
+  padding-left : 20px;
+  font-family  : "FuturaLight";
+  font-size    : 14px!important;
+}
+
+#footer,
+footer {
+  z-index  : 999;
+  position : fixed;
+  right    : 0;
+  bottom   : 0;
+  width    : 100%;
+}
+
+#footer:after {
+  content : '';
+  display : table-cell;
+  float   : none;
+  clear   : both;
+}
+
+#terms {
+  display     : inline-block;
+  float       : left;
+  padding     : 0 10px;
+  color       : #a0a0a0;
+  background  : rgba(34, 51, 81, .9);;
+  font-family : "FuturaBook";
+  font-size   : 10px;
+  font-weight : bold;
+  line-height : 32px;
+}
+
+#signature {
+  display        : inline-block;
+  float          : right;
+  padding        : 0 10px;
+  color          : #952810;
+  background     : #df5f46;
+  text-transform : lowercase;
+  font-family    : "FuturaBook";
+  font-size      : 10px;
+  line-height    : 32px;
+}
+
+#signature a {
+  color : #952810;
+}
+
+#terms a {
+  color      : #8a8a8a;
+  transition : all .3s linear;
+}
+
+#terms a:hover {
+  color : #fff;
+}
+
+#signature strong {
+  font-weight : bold;
+}
+
+.fanwall-wrapper {
+  margin      : 0 auto;
+  padding-top : 86px;
+}
+
+.fanwall-bar {
+  height    : 38px;
+  color     : #8a3423;
+  font-size : 14px;
+}
+
+.fanwall-bar .inner {
+  max-width : 1368px;
+  margin    : 0 auto;
+}
+
+.fixedSubMenu .fanwall-bar ul {
+  width  : auto;
+  margin : 0;
+}
+
+ul.add-items,
+ul.order-items {
+  display    : inline-block;
+  list-style : none;
+}
+
+ul.add-items a,
+ul.order-items a {
+  display     : inline-block;
+  height      : 25px;
+  line-height : 25px;
+}
+
+ul.add-items img {
+  display      : inline-block;
+  margin-right : 5px;
+}
+
+ul.add-items li,
+ul.order-items li {
+  display     : inline-block;
+  margin-left : 30px;
+  color       : #fff;
+  font-family : 'FuturaLight';
+  font-size   : 14px;
+  line-height : 38px;
+}
+
+ul.add-items li:first-child {
+  margin-left : 0;
+}
+
+ul.order-items li:last-child {
+  margin-right : 0;
+}
+
+ul.order-items li {
+  margin-right : 30px;
+  margin-left  : 0!important;
+}
+
+ul.add-items li a:not(.login),
+ul.order-items li a {
+  width : auto;
+}
+
+ul.add-items a.user {
+  padding    : 0 10px;
+  background : #8a3423;
+}
+
+li.login-container {
+  vertical-align : top;
+}
+
+a.login {
+  display     : inline-block;
+  width       : auto!important;
+  height      : 26px;
+  padding     : 0 20px;
+  background  : #8a3423;
+  line-height : 26px;
+}
+
+a.fanwall.login {
+  height         : 38px;
+  background     : #df5f46;
+  vertical-align : top;
+  line-height    : 38px;
+}
+
+a.fanwall.login img {
+  display      : inline-block;
+  width        : 25px;
+  height       : auto;
+  margin-top   : 6px;
+  margin-right : 0;
+  margin-left  : 1em;
+}
+
+a.user {
+  font-family : 'CR7FontBold';
+}
+
+a.facebook-login,
+a.facebook-logout,
+a.fanwall-cancel,
+a.fanwall-post,
+a.view-my-posts {
+  display            : inline-block;
+  width              : 208px;
+  height             : 48px;
+  background-color   : #8a3423;
+  text-align         : center;
+  vertical-align     : middle;
+  line-height        : 48px;
+  -moz-transition    : all .5s linear;
+  -o-transition      : all .5s linear;
+  -webkit-transition : all .5s linear;
+  transition         : all .5s linear;
+}
+
+#popup-logout a.user {
+  display    : inline-block;
+  margin-top : 1em;
+}
+
+a.view-my-posts {
+  display       : block;
+  margin        : 0 auto;
+  margin-top    : -1em;
+  margin-bottom : 2.5em;
+  color         : #df5f45;
+  background    : #fff;
+}
+
+a.fanwall-cancel {
+  opacity : .4;
+}
+
+.form .buttons {
+  height      : 44px;
+  text-align  : left;
+  line-height : 44px;
+}
+
+a.fanwall-cancel,
+a.fanwall-post {
+  width       : 126px;
+  height      : 44px;
+  float       : right;
+  margin-left : .1em;
+  line-height : 44px;
+}
+
+.checkbox.fb-share {
+  display : none;
+}
+
+.checkbox.fb-share+label {
+  opacity   : .5;
+  font-size : 14px;
+  cursor    : pointer;
+}
+
+.checkbox.fb-share+label:hover {
+  opacity : .6;
+}
+
+.checkbox.fb-share:checked+label,
+.checkbox.fb-share:checked+label:hover {
+  color   : #3e5484;
+  opacity : 1;
+}
+
+.checkbox.fb-share+label:before {
+  content        : ' ';
+  display        : inline-block;
+  width          : 26px;
+  height         : 26px;
+  margin-right   : .5em;
+  background     : url('../images/fb-share-inactive.png');
+  vertical-align : middle;
+}
+
+.checkbox.fb-share:checked+label:before {
+  background : url('../images/fb-share-active.png');
+}
+
+.checkbox.fb-share+label:before {
+  opacity : 1;
+}
+
+a.facebook-logout,
+a.fanwall-post {
+  opacity : .8;
+}
+
+a.facebook-logout:hover,
+a.fanwall-cancel:hover,
+a.fanwall-post:hover {
+  opacity : 1;
+}
+
+a.facebook-login img {
+  vertical-align : middle;
+}
+
+a.facebook-login:hover {
+  background-color : #0b3f79;
+}
+
+.popup-window div.user {
+  height      : 50px;
+  line-height : 50px;
+}
+
+.fanwall-popup .popup-title {
+  display     : inline-block;
+  float       : left;
+  padding-top : 40px;
+  text-align  : left;
+}
+
+.fanwall-popup .popup-user {
+  float       : right;
+  padding-top : 40px;
+  text-align  : left;
+}
+
+.popup-user .profile-pic {
+  display      : inline-block;
+  margin-right : .5em;
+}
+
+.fanwall-popup .clear-things {
+  float : none;
+  clear : both;
+}
+
+.caption .caption-left {
+  display : inline-block;
+  float   : left;
+}
+
+.caption .caption-right {
+  display     : inline-block;
+  float       : right;
+  color       : #fbefec;
+  font-size   : 14px;
+  line-height : 26px;
+}
+
+.textarea textarea {
+  width              : 453px;
+  padding            : 10px;
+  color              : #5c5c5c;
+  vertical-align     : top;
+  font-family        : 'FuturaLight';
+  font-size          : 16px;
+  line-height        : 20px;
+  -moz-transition    : height .4s ease;
+  -webkit-transition : height .4s ease;
+  transition         : height .4s ease;
+}
+
+.textarea::-webkit-input-placeholder {
+  color              : #a9a9a9;
+  opacity            : 1;
+  font-size          : 14px;
+  -moz-transition    : opacity .4s ease;
+  -webkit-transition : opacity .4s ease;
+  transition         : opacity .4s ease;
+}
+
+.textarea:focus::-webkit-input-placeholder {
+  opacity : .5;
+}
+
+.textarea:-moz-placeholder {
+  color     : #a9a9a9;
+  font-size : 14px;
+}
+
+.textarea::-moz-placeholder {
+  color     : #a9a9a9;
+  font-size : 14px;
+}
+
+.textarea:-ms-input-placeholder {
+  color     : #a9a9a9;
+  font-size : 14px;
+}
+
+textarea {
+  resize : none;
+}
+
+.photo-upload {
+  margin-bottom  : 20px;
+  padding-bottom : 0!important;
+  background     : #fff;
+}
+
+.photo-upload a,
+.photo-upload label {
+  display            : inline-block;
+  width              : 453px;
+  height             : 138px;
+  opacity            : .6;
+  background         : url('../images/upload-picture.png') no-repeat;
+  text-indent        : -9999px;
+  -moz-transition    : opacity .3s ease;
+  -ms-transition     : opacity .3s ease;
+  -webkit-transition : opacity .3s ease;
+  transition         : opacity .3s ease;
+  cursor             : pointer;
+}
+
+.photo-upload a:hover {
+  opacity : 1;
+}
+
+.photo-upload input {
+  display : none;
+}
+
+.file-progress {
+  display    : block;
+  width      : 0;
+  height     : 12px;
+  background : rgba(34, 51, 81, .5);
+}
+
+.fanwall-posts .item {
+  position      : relative;
+  width         : 30%;
+  float         : left;
+  margin-bottom : 20px;
+}
+
+.fanwall-posts.backoffice .item {
+  width : 100%;
+}
+
+.fanwall-posts.backoffice .approve,
+.fanwall-posts.backoffice .delete {
+  margin-left : 1em;
+}
+
+.fanwall-posts.backoffice .media {
+  width         : 100px;
+  height        : auto;
+  margin-right  : 1em;
+  margin-bottom : 1em;
+}
+
+.fanwall-posts .caption {
+  z-index     : 20;
+  position    : relative;
+  background  : #df5f46;
+  font-family : 'FuturaBook';
+  font-size   : 16px;
+  line-height : 20px;
+}
+
+.fanwall-posts .caption .username {
+  color       : #fbefec;
+  font-size   : 14px;
+  line-height : 25px;
+}
+
+.fanwall-posts .caption .username img {
+  width  : auto;
+  height : 25px;
+}
+
+.fanwall-posts .delete-post {
+  display        : inline-block;
+  width          : 26px;
+  height         : 26px;
+  margin-left    : .5em;
+  opacity        : .6;
+  overflow       : hidden;
+  background     : url('../images/delete-post.png') no-repeat;
+  text-indent    : 9999px;
+  vertical-align : middle;
+}
+
+.fanwall-posts .delete-post:hover {
+  opacity : 1;
+}
+
+.fanwall-posts .hashtags {
+  z-index     : 10;
+  position    : relative;
+  background  : #fff;
+  font-family : 'FuturaBook';
+  font-size   : 13px;
+}
+
+.fanwall-posts .hashtags ul {
+  width : 80%;
+}
+
+.fanwall-posts .hashtags a {
+  color : #df5f46;
+}
+
+.fanwall-posts .hashtags .add {
+  display     : inline-block;
+  position    : absolute;
+  top         : 12px;
+  right       : 12px;
+  width       : 12px;
+  height      : 11px;
+  opacity     : .8;
+  overflow    : hidden;
+  background  : url('../images/report.jpg') no-repeat;
+  text-indent : -9999px;
+}
+
+.fanwall-posts .hashtags .inner h3 {
+  color     : #df5f46;
+  font-size : 16px;
+}
+
+.fanwall-posts .hashtags .inner div {
+  margin-bottom : 20px;
+  color         : #222;
+}
+
+.fanwall-posts .hashtags .add:hover {
+  opacity : 1;
+}
+
+.fanwall-posts .inner {
+  padding : 12px;
+}
+
+.fanwall-posts .content {
+  color      : #df5f46;
+  background : #e6e6e6;
+  font-size  : 28px;
+}
+
+.fanwall-posts .image .content img,
+.fanwall-posts .video .content img {
+  display        : block;
+  width          : 100%;
+  height         : auto;
+  vertical-align : text-top;
+}
+
+.fanwall-posts .image,
+.fanwall-posts .video {
+  position : relative;
+}
+
+.fanwall-posts .image .content,
+.fanwall-posts .video .content {
+  cursor : pointer;
+}
+
+.fanwall-posts .image .content a,
+.fanwall-posts .video .content a {
+  display        : inline-block;
+  width          : 100%;
+  height         : 100%;
+  padding        : 0;
+  vertical-align : text-top;
+}
+
+.fanwall-posts .image .content a:after,
+.fanwall-posts .video .content a:after {
+  content            : '\25ba';
+  display            : block;
+  position           : absolute;
+  top                : 30%;
+  left               : 50%;
+  width              : 100px;
+  height             : 100px;
+  margin-left        : -55px;
+  color              : #fff;
+  opacity            : 0;
+  border             : solid 6px #fff;
+  border-radius      : 100px;
+  background-clip    : content-box;
+  text-align         : center;
+  font-size          : 50px;
+  line-height        : 100px;
+  -moz-transition    : opacity .3s ease;
+  -ms-transition     : opacity .3s ease;
+  -webkit-transition : opacity .3s ease;
+  transition         : opacity .3s ease;
+}
+
+.fanwall-posts .image .content a:after {
+  content : '+';
+}
+
+.fanwall-posts .image a:hover:after,
+.fanwall-posts .video a:hover:after {
+  opacity : .6;
+}
+
+.fanwall-posts .social-bar {
+  margin-top  : 12px;
+  padding-top : 12px;
+  border-top  : solid 1px rgba(255, 255, 255, .3);
+}
+
+.hashtags li {
+  display : inline;
+}
+
+.break-word {
+  text-align  : justify;
+  font-size   : 22px;
+  line-height : 1.3em;
+  word-wrap   : break-word;
+}
+
+.caption-clear {
+  float : none;
+  clear : both;
+}
+
+input.search {
+  width        : 188px;
+  height       : 26px;
+  margin-right : 6px;
+  margin-left  : 20px;
+  padding      : 0;
+  color        : #fff;
+  border       : 0;
+  background   : url('../images/searchbar.png') no-repeat;
+}
+
+@media
+  only screen
+  and (max-width : 1280px) {
+  .main-content {
+    width : 1100px;
+  }
+
+  ul.social {
+    padding-top : 30px;
+  }
+
+  .header-columns .col.social-menu {
+    width : 360px;
+  }
+
+  .header-columns .col.info {
+    height      : 170px;
+    padding-top : 30px;
+  }
+
+  .social a,
+  .social a:link {
+    width  : 48px;
+    height : 48px;
+  }
+
+  .inner .middle {
+    top : 15%;
+  }
+
+  .inner .middle p {
+    padding-right : 10px;
+    padding-left  : 10px;
+    font-size     : 16px;
+  }
+
+  .inner .down {
+    bottom : 10px;
+  }
+
+  .inner .inline .row.separator {
+    margin         : 10px;
+    padding-bottom : 10px;
+    border-bottom  : solid 1px #fff;
+  }
+
+  .inner .left {
+    float       : left;
+    margin-left : 10px;
+  }
+
+  .inner .right {
+    float        : right;
+    margin-right : 10px;
+  }
+
+  .no-image .inner .middle p {
+    font-size : 20px;
+  }
+
+  .news-container .caption .inner .inline.middle {
+    top : 40px;
+  }
+
+  .caption .social li {
+    margin-left : 6px;
+  }
+}
+
+@media
+  only screen
+  and (max-width : 1024px) {
+  .main-content {
+    width : 960px;
+  }
+
+  .header-columns .col.social-menu {
+    width : 360px!important;
+  }
+
+  .social a,
+  .social a:link {
+    width  : 48px;
+    height : 48px;
+  }
+
+  .inner .middle {
+    top : 10%;
+  }
+
+  .inner .middle p {
+    padding-right : 10px;
+    padding-left  : 10px;
+    font-size     : 14px;
+  }
+
+  .inner .down {
+    bottom : 10px;
+  }
+
+  .inner .inline .row.separator {
+    margin         : 10px;
+    padding-bottom : 10px;
+    border-bottom  : solid 1px #fff;
+  }
+
+  .inner .left {
+    float       : left;
+    margin-left : 10px;
+  }
+
+  .inner .right {
+    float        : right;
+    margin-right : 10px;
+  }
+
+  .no-image .inner .middle p {
+    font-size : 20px;
+  }
+
+  .news-container .caption .inner .inline.middle {
+    top : 20px;
+  }
+
+  .caption .social li {
+    margin-left : 4px;
+  }
+}
+
+@media
+  only screen
+  and (max-width : 768px) {
+  .main-content {
+    width : 720px;
+  }
+
+  .fanwall-posts .item,
+  .news-container .item {
+    width : 49%;
+  }
+
+  .fixedMenu ul {
+    width : 100%;
+  }
+
+  .sponsors-container .item {
+    width  : 50%;
+    float  : left;
+    margin : 0 auto;
+  }
+
+  .header-columns .col {
+    display : block;
+    width   : 45%;
+    height  : auto!important;
+    margin  : 0 auto;
+  }
+
+  ul.social {
+    width : 200px;
+  }
+
+  .header-columns {
+    display            : -webkit-box;
+    display            : -moz-box;
+    display            : box;
+    -moz-box-orient    : vertical;
+    -webkit-box-orient : vertical;
+    box-orient         : vertical;
+  }
+
+  .header-columns .col.logo {}
+
+  .header-columns .col.social-menu {}
+
+  .header-columns .col.info {}
+
+  .header-columns .col.slider-menu {}
+
+  .header-columns .col.info {
+    padding-bottom : 30px;
+  }
+
+  .col.logo {
+    padding-top : 30px;
+  }
+
+  a.add.videos {
+    display : none;
+  }
+
+  a.refresh {
+    display : none;
+  }
+
+  ul.add-items li {
+    margin-left : .66em;
+  }
+}
+
+.isotope,
+.isotope .isotope-item {
+  -moz-transition-duration    : .3s;
+  -ms-transition-duration     : .3s;
+  -o-transition-duration      : .3s;
+  -webkit-transition-duration : .3s;
+  transition-duration         : .3s;
+}
+
+.isotope {
+  -moz-transition-property    : height,
+                                width;
+  -ms-transition-property     : height,
+                                width;
+  -o-transition-property      : height,
+                                width;
+  -webkit-transition-property : height,
+                                width;
+  transition-property         : height,
+                                width;
+}
+
+.isotope .isotope-item {
+  -moz-transition-property    : -moz-transform,
+                                opacity;
+  -ms-transition-property     : -ms-transform,
+                                opacity;
+  -o-transition-property      : -o-transform,
+                                opacity;
+  -webkit-transition-property : -webkit-transform,
+                                opacity;
+  transition-property         : transform,
+                                opacity;
+}
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -moz-transition-duration    : 0s;
+  -ms-transition-duration     : 0s;
+  -o-transition-duration      : 0s;
+  -webkit-transition-duration : 0s;
+  transition-duration         : 0s;
+}
+
+#infscr-loading {
+  z-index     : 100;
+  position    : fixed;
+  bottom      : 30px;
+  left        : 42%;
+  padding     : 20px;
+  color       : #fff;
+  background  : rgba(34, 51, 81, .9);
+  text-align  : center;
+  font-family : 'FuturaBook'!important;
+  font-size   : 12px;
+}
+
+#like-loading {
+  display     : none;
+  width       : 250px;
+  padding     : 20px;
+  color       : #fff;
+  background  : rgba(32, 55, 99, .9);
+  text-align  : center;
+  font-family : 'FuturaBook'!important;
+  font-size   : 12px;
+}
+
+#infscr-loading div,
+#like-loading div {
+  padding-top : 10px;
+}
+
+#like-loading div.detail {
+  display : none;
+}
+
+.infinite-scroll {
+  -moz-transition    : none;
+  -ms-transition     : none;
+  -o-transition      : none;
+  -webkit-transition : none;
+  transition         : none;
+}
+
+.clearfix_iso:after,
+.clearfix_iso:before {
+  content : "";
+  display : table;
+}
+
+.clearfix_iso:after {
+  clear : both;
+}
+
+.clearfix_iso {
+  zoom : 1;
+}
+
+.popup-window {
+  display     : none;
+  width       : auto;
+  padding     : 0 40px;
+  color       : #fff;
+  text-align  : center;
+}
+
+#popup-email {
+  width : 680px;
+}
+
+#popup-email,
+#popup-login,
+#popup-logout {
+  background : rgba(34, 51, 81, .8);
+}
+
+#popup-login,
+#popup-logout {
+  padding : 40px;
+}
+
+.popup-window h2 {
+  text-transform : uppercase;
+  vertical-align : top;
+  font-family    : 'FuturaLight';
+  font-size      : 36px;
+  font-weight    : 200;
+  line-height    : 36px;
+}
+
+#popup-email h2 {
+  padding-top : 40px;
+}
+
+.popup-window .info {
+  margin-top : 40px;
+}
+
+.popup-window .thank-you {
+  display        : none;
+  padding-bottom : 20px;
+}
+
+.popup-window .thank-you h2 {
+  padding-top    : 60px;
+  padding-bottom : 20px;
+  font-size      : 16px;
+  line-height    : 16px;
+}
+
+.popup-window .thank-you h2 {
+  padding-top : 40px;
+}
+
+#popup-wetransfer p,
+.popup-window .thank-you p {
+  text-align     : center;
+  text-transform : uppercase;
+}
+
+.popup-window h2 span {
+  display     : inline-block;
+  text-align  : left;
+  font-size   : 16px;
+  line-height : 16px;
+}
+
+.popup-window .separador {
+  width      : 352px;
+  height     : 2px;
+  margin     : 20px auto;
+  background : url(../images/separador.png) no-repeat;
+}
+
+.popup-window .separador2 {
+  width      : 311px;
+  height     : 1px;
+  margin     : 20px auto;
+  background : url(../images/separador2.png) no-repeat;
+}
+
+.popup-window div {
+  padding-bottom : 20px;
+}
+
+.popup-window input {
+  width   : 302px;
+  height  : 22px;
+  padding : 2px;
+}
+
+#popup-email .submit {
+  display     : inline-block;
+  width       : 130px;
+  height      : 36px;
+  margin-top  : 15px;
+  color       : #df5f46!important;
+  background  : #fff;
+  line-height : 36px;
+}
+
+.background-solid {
+  width           : 100%;
+  height          : 100%;
+  min-height      : 100%;
+  padding         : 0;
+  background-size : cover;
+}
+
+.background-solid {
+  z-index    : -6;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #000;
+}
+
+.background.disclaimer {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #000 url('../images/backdisclaimer.jpg') no-repeat top center;
+}
+
+.disclaimer .title {
+  padding-top : 40px;
+  font-family : "FuturaBook";
+  font-size   : 16px;
+}
+
+.disclaimer .subtitle {
+  padding-top : 20px;
+  font-family : "CR7FontBold";
+  font-size   : 16px;
+}
+
+.disclaimer .terms {
+  padding-top : 80px;
+  text-align  : left;
+  font-family : "FuturaBook";
+  font-size   : 14px;
+  line-height : 18px;
+}
+
+.disclaimer .terms-container {
+  position    : relative;
+  padding-top : 80px;
+}
+
+.disclaimer .terms {
+  z-index  : 10;
+  position : absolute;
+  top      : 0;
+  left     : 0;
+  height   : 0;
+  opacity  : .5;
+  overflow : hidden;
+}
+
+.disclaimer .terms.active {
+  height  : auto;
+  opacity : 1;
+}
+
+.disclaimer .terms strong {
+  display     : block;
+}
+
+.disclaimer .terms p {
+  margin-bottom : 20px;
+}
+
+.disclaimer .terms a,
+.disclaimer .terms a:active,
+.disclaimer .terms a:hover,
+.disclaimer .terms a:link,
+.disclaimer .terms a:visited {
+  color : #009cff;
+}
+
+.main-wrapper.disclaimer {
+  overflow : visible;
+}
+
+.terms-menu {
+  width       : 600px;
+  margin      : 0 auto;
+  padding-top : 60px;
+  text-align  : center;
+}
+
+.terms-menu li {
+  display        : inline;
+  text-transform : uppercase;
+}
+
+.terms-menu a {
+  display            : inline-block;
+  width              : 32%;
+  color              : #fff;
+  opacity            : .5;
+  font-size          : 14px;
+  line-height        : 20px;
+  -webkit-transition : all .3s linear;
+  transition         : all .3s linear;
+}
+
+.terms-menu a:hover {
+  opacity : 1;
+}
+
+.terms-menu a.active {
+  opacity     : 1;
+}
+
+.disclaimer .logo img {
+  width  : 170px;
+  height : auto;
+}
+
+p.terms-link {
+  padding-top : 20px;
+  text-align  : center;
+  font-size   : 14px;
+}
+
+.fanwall-page .fancybox-skin {
+  -moz-border-radius    : 0!important;
+  -webkit-border-radius : 0!important;
+  border-radius         : 0!important;
+  background            : #df5f46!important;
+  -moz-box-shadow       : 0 1px 33px 7px rgba(2, 2, 2, .45)!important;
+  -webkit-box-shadow    : 0 1px 33px 7px rgba(2, 2, 2, .45)!important;
+  box-shadow            : 0 1px 33px 7px rgba(2, 2, 2, .45)!important;
+}
+
+.fanwall-page .fancybox-skin {
+  text-align : right!important;
+}
+
+.fanwall-page .cr-close {
+  position    : static;
+  text-indent : 9999px;
+}
+
+.fanwall-page .fancybox-title {
+  padding-left : 15px;
+  text-align   : left;
+}
+
+#fancybox-loading {
+  background : #df5f46!important;
+}
+
+#fancybox-loading div {
+  background : url('../images/loading-ronaldo.gif') center center no-repeat!important;
+}
+
+.mobile-menu ul {
+  display     : none;
+  width       : 90%;
+  margin      : 10px auto;
+  padding-top : 10px;
+}
+
+.mobile-menu li {
+  margin-bottom  : .2em;
+  text-align     : center;
+  text-transform : uppercase;
+  line-height    : 1em;
+}
+
+.mobile-menu a {
+  font-family : 'FuturaBook';
+  font-size   : 14px;
+}
+
+.mobile-menu a.active {
+  font-family : 'CR7FontBold';
+}
+
+@media
+  screen
+  and (max-width : 480px) {
+  .sponsors-container .item {
+    width  : 100%;
+    float  : none;
+    margin : 0 auto;
+  }
+
+  .news-container {
+    width : 90%;
+  }
+
+  .fanwall-posts .item,
+  .news-container .item {
+    width : 100%;
+  }
+
+  .main-menu li:not(.down) {
+    display : none;
+  }
+
+  .mobile-menu ul {
+    display : block;
+  }
+
+  ul.social {
+    width : auto;
+  }
+
+  .arrowWrapper {
+    position    : absolute;
+    top         : 0px;
+    left        : 50%;
+    margin-left : -44px;
+  }
+}
+
+.fanwall-posts .owned .caption {
+  color      : #afafaf;
+  background : #fff;
+}
+
+.fanwall-posts .owned .caption .message {
+  margin-top : -2em;
+  color      : #df5f46;
+}
+
+.fanwall-posts .owned .caption .caption-clear {
+  display : none;
+}
+
+.fanwall-posts .owned .username {
+  display    : block;
+  position   : relative;
+  top        : -90px;
+  float      : none;
+  text-align : center;
+  font-size  : 24px;
+}
+
+.fanwall-posts .owned .username a:before {
+  content     : '';
+  display     : inline-block;
+  width       : 18px;
+  height      : 18px;
+  margin-top  : .2em;
+  background  : url('../images/fanwall-owned.png') no-repeat;
+  line-height : 18px;
+}
+
+.fanwall-posts .owned .caption .caption-right {
+  display    : block;
+  position   : relative;
+  top        : -80px;
+  float      : none;
+  color      : #afafaf;
+  text-align : center;
+  font-size  : 16px;
+}
+
+.owned a.fire,
+.owned a.fire:hover {
+  background : url('../images/fanwall-likes-grey.png') center center no-repeat;
+}
+
+.owned span.kick {
+  width      : 62px;
+  background : url('../images/fanwall-kick-grey.png') no-repeat;
+}
+
+.owned .caption .social a.fb,
+.owned .caption .social a.fb:link {
+  width      : 25px;
+  height     : 25px;
+  margin-top : 2px;
+  background : url('../images/fanwall-facebook-share-grey.png') no-repeat;
+}
+
+.owned .caption .social a.tw,
+.owned .caption .social a.tw:link {
+  width      : 25px;
+  height     : 25px;
+  margin-top : 2px;
+  background : url('../images/fanwall-twitter-share-grey.png') no-repeat;
+}
+
+.fanwall-posts .owned .username img {
+  display : none;
+}
+
+.fanwall-posts .owned .social-bar {
+  border-top : solid 1px rgba(175, 175, 175, .5);
+}
+
+.hide {
+    display: none;
+}
+
+hr.thin {
+height: 1px;
+border: 0;
+color: #fff;
+background-color: #fff;
+/*width: 80%;*/
+}
+.tldate {
+font-size: x-small;
+font-weight: bold;
+}
+
+table.stats {
+  border: 1px solid #FFFFFF;
+  width: 90%;
+  text-align: left;
+  border-collapse: collapse;
+  line-height: 20px;
+}
+table.stats td, table.blueTable th {
+  border: 1px solid #FFFFFF;
+  padding: 0px 4px;
+}
+table.stats tbody td {
+  font-size: 13px;
+}
+table.stats thead {
+  }
+table.stats thead th {
+  font-weight: normal;
+}
+table.stats tfoot {
+  font-weight: bold;
+}

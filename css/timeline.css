@@ -1,0 +1,519 @@
+body.noscroll {}
+
+.timeline-page {
+  overflow-y : hidden;
+}
+
+.background-solid.career {
+  z-index    : -10;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  width      : 100%;
+  height     : 100%;
+  min-height : 100%;
+  padding    : 0;
+  background : #000;
+}
+
+.background.career {
+  z-index            : 0;
+  position           : fixed;
+  top                : 0;
+  left               : 0;
+  opacity            : 1;
+  background         : url('../images/backcarriera.jpg') no-repeat top center;
+  background-size    : cover;
+  -webkit-transition : all .3s ease;
+  transition         : all .3s ease;
+}
+
+.background.stats {
+  z-index            : -5;
+  position           : fixed;
+  top                : 0;
+  left               : 0;
+  opacity            : 1;
+  background         : #2d2d2d url('../images/backstats.jpg') no-repeat top center;
+  background-size    : cover;
+  -webkit-transition : all .3s ease;
+  transition         : all .3s ease;
+}
+
+.timeline-wrapper {
+  width       : 960px;
+  margin      : 0 auto;
+  padding-top : 76px;
+}
+
+/* da aumentare quando si aggiunge annata in carriera */
+.timeline-container {
+  width : 32400px;
+}
+
+.timeline-container:after {
+  content : ' ';
+  display : block;
+  height  : 0;
+  float   : none;
+  clear   : both;
+}
+
+.timeline-wrapper .nav {
+  z-index            : 100;
+  display            : block;
+  position           : fixed;
+  top                : 50%;
+  width              : 74px;
+  height             : 74px;
+  margin-top         : -37px;
+  opacity            : .4;
+  text-indent        : -9999px;
+  -moz-transition    : opacity .3s ease;
+  -ms-transition     : opacity .3s ease;
+  -webkit-transition : opacity .3s ease;
+  transition         : opacity .3s ease;
+}
+
+.timeline-wrapper .nav.left {
+  left       : 20px;
+  background : url('../images/timeline_left.png');
+}
+
+.timeline-wrapper .nav.right {
+  right      : 20px;
+  background : url('../images/timeline_right.png');
+}
+
+.timeline-wrapper .nav:hover {
+  opacity : 1;
+}
+
+.career-block {
+  position   : relative;
+  width      : 920px;
+  height     : 700px;
+  float      : left;
+  text-align : left;
+}
+
+.career-block.fake {
+  width : 28px;
+}
+
+.career-block.fake-end {
+  width : 138px;
+}
+
+.career-block.single {
+  width        : 600px;
+  margin-right : 20px;
+  padding-top  : 65px;
+}
+
+.career-block .box {
+  z-index        : 6;
+  display        : block;
+  position       : relative;
+  width          : 460px;
+  height         : 450px;
+  float          : left;
+  text-align     : left;
+  vertical-align : bottom;
+}
+
+.career-block .box ul{
+    background-color: rgba(34, 51, 81, .9);
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.career-block .box.large {
+  width : 600px;
+}
+
+.career-block .box.large:last-child {
+  margin-right : 0;
+}
+
+.career-block .box .content.bottom {
+  position : absolute;
+  bottom   : 20px;
+}
+
+.orders .season-content {
+  padding-top : 240px;
+  text-align  : center;
+}
+
+.career-block .separator {
+  z-index       : 10;
+  position      : relative;
+  height        : 22px;
+  float         : none;
+  clear         : both;
+  margin-bottom : 20px;
+  line-height   : 22px;
+}
+
+.career-block span.inline-ball {
+  display      : inline-block;
+  width        : 23px;
+  height       : 22px;
+  margin-right : 5px;
+  background   : url('../images/timeline-ball.png') no-repeat;
+}
+
+.career-block span.inline-ball.end {
+  background : url('../images/timeline-ball-end.png') no-repeat;
+}
+
+.career-block span.inline-border {
+  display    : inline-block;
+  width      : 877px;
+  height     : 4px;
+  margin     : 10px 0;
+  background : #f0f0f0;
+}
+
+.career-block .image,
+.career-block .image-mid {
+  display  : block;
+  position : absolute;
+  float: right;
+  /* min-width: ??; */
+}
+
+.career-block #fade-it2015 {
+  top  : -10px;
+  left : 140px;
+}
+
+.career-block #fade-itepic {
+  top  : -210px;
+  left : 860px;
+}
+
+.career-block .image-mid.season8586 {
+  top   : -50px;
+  right : 0px;
+}
+
+.career-block .image.season1 {
+  top  : -210px;
+  left : -250px;
+}
+
+.career-block .image.seasonr {
+  top   : -50px;
+  right : -900px;
+}
+
+.career-block .image-mid.season1 {
+  top   : 20px;
+  right : 0;
+}
+
+.career-block .image.season2 {
+  top   : 120px;
+  right : 100px;
+}
+
+.career-block .image-mid.season3 {
+  top   : 20px;
+  right : -80px;
+}
+
+.career-block .image.season5 {
+  top   : 20px;
+  right : 120px;
+}
+
+.career-block .image-mid.season5 {
+  top   : 20px;
+  right : -100px;
+}
+
+.career-block .image.season6 {
+  top   : -55px;
+  right : 0;
+}
+
+.career-block .image.season10 {
+  top  : 10px;
+  left : 400px;
+}
+
+.career-block .image-mid.season7 {
+  top   : 0;
+  right : 50px;
+}
+
+.career-block .image-mid.season10 {
+  top   : -50px;
+  right : -100px;
+}
+
+.career-block .image-mid.season-sporting {
+  top   : -50px;
+  right : 200px;
+}
+
+.career-block .image.records {
+  position : relative!important;
+  top      : 60px;
+}
+
+.career-block .image-mid.seasonr7 {
+  top   : -20px;
+  right : 210px;
+}
+
+.career-block .image.records img {
+  width  : 960px;
+  height : auto;
+}
+
+.career-block .image.orders {
+  width  : 960px;
+  height : auto;
+}
+
+.career-block .season-title {
+  z-index     : 5;
+  position    : relative;
+  color       : #f0f0f0;
+  font-family : 'FuturaBC';
+  font-size   : 24px;
+}
+
+.career-block .season-content {
+  z-index     : 5;
+  position    : relative;
+  font-family : 'FuturaBook';
+  font-size   : 16px;
+  line-height : 24px;
+}
+
+.career-block strong {
+  font-family : 'FuturaBC';
+  font-weight : bold;
+}
+
+.career-title {
+  z-index    : 5;
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  text-align : left;
+}
+
+.career-block.season1 h2 {
+  display : inline-block;
+}
+
+.career-block.orders h2,
+.career-block.records h2,
+.career-block.season1 h2 {
+  color          : #f0f0f0;
+  text-align     : left;
+  text-transform : uppercase;
+  font-family    : 'FuturaLight';
+  font-size      : 52px;
+}
+
+.career-block.records h2 span {
+  font-size : 24px;
+}
+
+.season-content a {
+  padding-left : 28px;
+}
+
+.season-content .play-video {
+  background : url('../images/timeline-play.png') no-repeat 2px 1px;
+}
+
+.season-content .show {
+  background : url('../images/timeline-show.png') no-repeat 2px 1px;
+}
+
+.timeline-page .fancybox-skin {
+  -moz-border-radius    : 0!important;
+  -webkit-border-radius : 0!important;
+  border-radius         : 0!important;
+  background            : #f0f0f0!important;
+  -moz-box-shadow       : 0 1px 33px 7px rgba(2,2,2,.45)!important;
+  -webkit-box-shadow    : 0 1px 33px 7px rgba(2,2,2,.45)!important;
+  box-shadow            : 0 1px 33px 7px rgba(2,2,2,.45)!important;
+}
+
+.timeline-page .fancybox-skin {
+  text-align : right!important;
+}
+
+.timeline-page .cr-close {
+  position    : static;
+  text-indent : 9999px;
+}
+
+.timeline-page .fancybox-title {
+  text-align : left;
+}
+
+#fancybox-loading {
+  background : #f0f0f0!important;
+}
+
+#fancybox-loading div {
+  background : url('../images/loading-ronaldo.gif') center center no-repeat!important;
+}
+
+.nav,
+.separator,
+img,
+span {
+  -moz-user-select    : none;
+  -ms-user-select     : none;
+  -o-user-select      : none;
+  -webkit-user-select : none;
+  user-select         : none;
+}
+
+@media
+  screen
+  and (max-width : 480px) {
+
+  .timeline-page {
+    overflow-y : visible;
+  }
+  .timeline-container,
+  .timeline-wrapper {
+    width    : 100%;
+    overflow : hidden;
+  }
+
+  .timeline-container {
+    padding-top : 150px;
+  }
+
+  .career-title {
+    top  : -155px;
+    left : -10px;
+  }
+
+  .timeline-container .nav {
+    display : none;
+  }
+
+  .career-block.fake {
+    display : none;
+  }
+
+  .career-block {
+    width         : 60% !important;
+    height        : auto;
+    float         : none;
+    margin        : 0 auto;
+    margin-bottom : 40px; /*40px*/
+    margin-left   : 15%;
+    padding-left  : 20px;
+    border-left   : solid 4px #f0f0f0;
+  }
+
+  .career-block .separator {
+    position : absolute;
+    top      : -30px;
+    left     : -12px;
+  }
+
+  .career-block .separator .inline-border {
+    display : none;
+  }
+
+  .inline-ball,
+  .season-title {
+    display : inline-block;
+  }
+
+  .career-block img {
+    top    : 10px !important;
+    right  : -30% !important;
+    width  : 120%;
+    height : auto;
+  }
+
+  .career-block .box {
+    top     : 0px;
+    width   : 100% !important;
+    height  : auto;
+    float   : none;
+    padding-top : 220px; /* 220px */
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px; /* 20px */
+  }
+  .career-block .box.onlytext {
+    padding-top : 20px !important; /* 220px */
+  }
+
+  .career-block .box.vertical {
+    padding-top : 320px !important; /* 220px */
+  }
+
+  .career-block .box.vertical2 {
+    padding-top : 420px !important; /* 220px */
+  }
+
+  .career-block .box.stats {
+    padding-top : 120px !important; /* 220px */
+  }
+
+  .career-block .box.large {
+    padding : 20px 0px;
+  }
+
+  .career-block .box .content.bottom {
+    position : relative;
+    top      : 0px;
+  }
+
+  .career-block .image-mid.season5 {
+    top : 20% !important;
+  }
+
+  #fade-it4b {
+    display : none;
+  }
+
+  .orders .season-content {
+    padding-top : 0px;
+  }
+
+  .career-block.fake-end {
+    border-left : solid 4px transparent !important;
+  }
+
+  .career-block.almost-last {
+    display : none;
+  }
+
+  .career-block.records {
+    margin-top    : 60px;
+    margin-bottom : 0px;
+  }
+
+  .career-block.before-almost {
+    margin-bottom : 30px !important;
+  }
+
+  .career-block.records .career-title {
+    top : -125px;
+  }
+
+  .career-block.single {
+    margin-bottom : 0px;
+  }
+}
