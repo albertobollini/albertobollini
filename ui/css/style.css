@@ -149,7 +149,6 @@ body {
                             sans-serif;
   font-weight             : normal;
   -webkit-font-smoothing  : antialiased;
-  font-smoothing          : antialiased;
   -moz-osx-font-smoothing : grayscale;
   line-height             : 1;
 }
@@ -1402,6 +1401,7 @@ h2.title {
   height : auto;
 }
 
+/*RAI*/
 .gallery-container .caption,
 .news-container .caption,
 .sponsors-container .caption {
@@ -1412,19 +1412,21 @@ h2.title {
   left        : 0;
   width       : 100%;
   color       : #fff;
-  background  : rgba(34, 51, 81, .9);
+  background  : rgb(34, 51, 81);
   font-family : 'FuturaLight';
+  text-align: center;
 }
 
 .sponsors-container .caption-fixed {
   z-index     : 2;
   position    : absolute;
-  bottom         : 0;
+  bottom      : 0;
   left        : 0;
   width       : 100%;
   color       : #fff;
-  background  : rgba(34, 51, 81, .9);
-  padding : 10px;
+  background  : rgba(32, 55, 99, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
   /*font-family : 'FuturaLight';*/
 }
 
