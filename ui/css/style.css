@@ -341,6 +341,14 @@ a {
   cursor     : pointer;
 }
 
+.background.index {
+z-index: -5;
+position: fixed;
+top: 0;
+left: 0;
+background: #111 url('../images/copertina\ index.jpg') no-repeat top center ;
+}
+
 .background.carriera {
   z-index    : -5;
   position   : fixed;
