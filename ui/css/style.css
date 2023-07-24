@@ -370,7 +370,7 @@ background: #111 url('../images/copertina\ index.jpg') no-repeat top center ;
   position        : fixed;
   top             : 0;
   left            : 0;
-  background      : #111 url('../images/rai/copertina rai.jpg') no-repeat top center;
+  background      : #111 url(ui/images/commento tecnico RAI/copertina commento tecnico RAI.jpg) no-repeat top center;
 }
 
 .background.figc {
