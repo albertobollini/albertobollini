@@ -410,7 +410,7 @@ background: #111 url('../images/copertina\ index.jpg') no-repeat top center ;
   position   : fixed;
   top        : 0;
   left       : 0;
-  background : #111 url('ui/images/oltre il calcio/background oltre.jpeg') no-repeat top center;
+  background : #111 url('../images/background\ oltre.jpeg') no-repeat top center;
 }
 
 .background.contatti {
