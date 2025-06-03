@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <title>Carriera - Mr.Alberto Bollini sito ufficiale</title>
+        <meta name="og:title" content="Carriera - Mr.Alberto Bollini sito ufficiale">
+
+        <!--<meta name="og:image" content="ui/images/fb_share_2014.jpg"/>-->
+<meta name="og:url" content=""/>
+<meta name="og:site_name" content="Mr.Alberto Bollini sito ufficiale"/>
+<meta name="og:description" content=""/>
+<meta name="description" content="Benvenuti sul sito ufficiale di Mr.Alberto Bollini.">
+<meta name="keywords" content="alberto, bollini, mr alberto bollini, Alberto Bollini">
+<meta name="author" content="">
+<!--<link rel="shortcut icon" href="favicon.ico" />-->
+<link href="ui/css/style.css?v=20150907.1530" rel="stylesheet" type="text/css" />
+<link href="ui/css/box.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet prefetch" href="ui/lg/css/lightgallery.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<script src="ui/js/jquery.min.js"></script>
+<script src="ui/js/jquery.box.js"></script>
+<script src="ui/js/common.js"></script>
+<script src="ui/lg/js/lightgallery-all.min.js"></script>
+
+
+<!-- Core CSS file -->
+<link rel="stylesheet" href="ui/photoswipe/photoswipe.css">
+
+<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite,
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="ui/photoswipe/default-skin/default-skin.css">
+
+<!-- Core JS file -->
+<script src="ui/photoswipe/photoswipe.min.js"></script>
+
+<!-- UI JS file -->
+<script src="ui/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+        <link href="ui/css/timeline.css?v=2015.01" rel="stylesheet" type="text/css">
+        <script src="ui/js/TweenMax.min.js"></script>
+        <script src="ui/js/jquery.superscrollorama.js"></script>
+        <script src="ui/js/career.js?v=2015.01"></script>
+    </head>
+<body class="timeline-page" data-gr-c-s-loaded="true">
+
+<!-- background -->
+<div class="background carriera" style="background-size: cover !important;"></div>
+ <!--[if lt IE 9]>
+<div class="ltie9-notice-fixed">
+    <p>TO FULLY ENJOY THIS
+WEBSITE YOU SHOULD <a href="//windows.microsoft.com/pt-br/internet-explorer/download-ie">UPDATE YOUR BROWSER</a></p>
+</div>
+<![endif]-->
+
+<div class="fixedMenuWrapper">
+    <div class="fixedMenu special">
+        <ul class="main-menu">
+            <li><a href="carriera.html">Carriera</a></li>
+            <li><a href="palmares.html">Palmares</a></li>
+            <li><a href="figc.html">F.I.G.C.</a></li>
+            <li><a href="commento tecnico rai.html">commento tecnico rai</a></li>
+            <li class="down"><a class="down" href="#">Down</a></li>
+            <li><a href="formazione.html">Formazione</a></li>
+            <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+            <li><a href="summercamp.html">SummerCamp</a></li>
+            <li><a href="oltre il calcio.html">Oltre il calcio</a></li>
+            <!--<li><a href="contatti">Contatti</a></li>-->
+            <li><a href="#">&nbsp;</a></li>
+        </ul>
+    </div>
+
+
+</div>
+
+<div class="sliderFixed">
+<div class="sliderWrapper">
+    <div id="slider">
+        <div class="sliderContent">
+
+            <div class="fixedMenu none"></div>
+
+            <div class="header-columns">
+
+                <div class="col logo">
+                    <h1><a href="/"><img src="ui/images/logo.png" /></a></h1>
+                </div>
+
+                <div class="col mobile-menu">
+                    <ul>
+                        <li><a href="carriera.html">Carriera</a></li>
+                        <li><a href="palmares.html">Palmares</a></li>
+                        <li><a href="formazione.html">Formazione</a></li>
+                        <li><a href="figc.html">F.I.G.C.</a></li>
+                        <li><a href="pubblicazioni.html">Pubblicazioni</a></li>
+                        <li><a href="commento tecnico rai.html">commento tecnico rai</a></li>
+                        <li><a href="summercamp.html">Summercamp</a></li>
+                        <li><a href="oltre il calcio.html">Oltre il calcio</a></li>
+                        <!--<li><a href="contacts">Contatti</a></li>-->
+                    </ul>
+                </div>
+
+                <div class="col social-menu">
+                    <ul class="social">
+                        <li class="no-m"><a class="in" href="//www.instagram.com/albertobollini/" target="_blank" title="Instagram">Instagram</a></li>
+                        <li><a class="fb out" href="//www.facebook.com/Alberto-Bollini-1222726307860505/" target="_blank" title="Facebook">Facebook</a></li>
+                        <li><a class="tw" href="//twitter.com/albertobollini" target="_blank" title="Twitter">Twitter</a></li>
+                        <li><a class="yt" href="//www.youtube.com/channel/UCJyX9wuaMP1GMf9tVrrPArw" target="_blank" title="Youtube">Youtube</a></li>
+                        <li><a class="ma" href="mailto:contact@albertobollini.com" target="_blank" title="Contact">Contact</a></li>
+                        <!-- <li class="nw">&copy; 2018 Alberto Bollini</li> -->
+                        <li class="nw"><strong>contact@albertobollini.com</strong></li>
+                    </ul>
+                </div>
+
+                            </div>
+
+        </div>
+    </div>
+    <div class="arrowWrapper">
+        <a href="#" class="topmenuaction"><span class="arrow">&nbsp;</span></a>
+    </div>
+</div>
+</div>
+
+
+<div class="timeline-wrapper" style="opacity: 0;">
+
+            <div class="timeline-container">
+                <a href="#" class="nav left">Prev</a>
+                <a href="#" class="nav right">Next</a>
+
+
+                
+<!-- 22/23-->
+<div class="career-block season1 animated">
+    <img id="fade-itpic" class="image" src="ui/images/carriera/2223/nazionale A/tl.jpg">                      
+       
+
+    <div class="box vertical first"> <!--style="@media screen and (max-width : 480px) {padding-top : 440px;}"-->
+        <ul class="season-content content bottom" style="width: 296px;">
+            <li>NAZIONALE ITALIANA</li>
+            <li>Collaboratore tecnico Nazionale A</li>
+            <li class="psg">
+                <a href="ui/images/carriera/2223/nazionale A/1.jpg" data-size="918x612" class="show">Gallery</a>
+                <a href="ui/images/carriera/2223/nazionale A/2.jpg" data-size="918x612" class="hide"></a>
+                <a href="ui/images/carriera/2223/nazionale A/3.jpg" data-size="918x612" class="hide"></a>
+                <a href="ui/images/carriera/2223/nazionale A/4.jpg" data-size="918x612" class="hide"></a>
+            </li>
+            <li>Allenatore Under 19</li>
+            <li class="psg">
+                <a href="ui/images/carriera/2223/g/0.jpeg" data-size="1535x1981" class="show">Gallery</a>
+                <a href="ui/images/carriera/2223/g/1.jpeg" data-size="1536x2048" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/2.jpeg" data-size="1466x2048" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/3.jpeg" data-size="1536x2048" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/4.jpeg" data-size="908x1142" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/5.jpeg" data-size="1600x1065" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/6.jpeg" data-size="1500x1500" title="POLONIA 2022" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/7.jpeg" data-size="946x1138" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/8.jpg" data-size="1738x2508" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/9.jpg" data-size="1644x2416" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/10.jpg" data-size="1526x2209" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/11.jpeg" data-size="990x695" title="VINCENTE GIRONE ELITE ROUND" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/12.jpeg" data-size="918x612" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/13.jpeg" data-size="1024x576" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/14.jpeg" data-size="1600x900" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/15.jpg" data-size="5289x2795" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/16.jpg" data-size="1438x2015" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/17.jpg" data-size="5237x2859" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/18.jpeg" data-size="946x1198" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/19.jpeg" data-size="988x665" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/20.jpg" data-size="1727x2508" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/21.jpg" data-size="6187x3910" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/22.jpeg" data-size="1080x1353" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/23.jpg" data-size="4761x2929" class="hide"></a>
+                <a href="ui/images/carriera/2223/g/24.jpg" data-size="4579x3150" class="hide"></a>
+            </li>
+            <li class="psg">        
+            <a href="ui/images/carriera/2223/v/1 - Semifinale Spagna-Italia 2-3 [13.07.2023].mp4" data-size="360x640" controls class="show">Video</a>
+            <a href="ui/images/carriera/2223/v/2 - Finale Coppa Europa Italia-Portogallo 1-0 [16.07.2023].mp4" data-size="1280x720" controls class="hide"></a>
+            <a href="ui/images/carriera/2223/v/3 - Intervista SkySport.mp4" data-size="848x480" controls class="hide"></a>
+            <a href="ui/images/carriera/2223/v/vittoria campionato europeo under 19 (Malta, luglio 2023).mp4" data-size="480x848" class="hide"></a>
+            <a href="ui/images/carriera/2223/v/ULTIMO VIDEO.mp4" data-size="480x848" controls class="hide"></a>
+            </li>
+            <li class="psp">
+                <a href="ui/images/carriera/2223/p/00.jpg" data-size="3600x5280" class="show"> Press</a>
+                <a href="ui/images/carriera/2223/p/0.jpeg" data-size="885x1162" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/1.jpeg" data-size="946x1869" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/2.jpeg" data-size="946x1534" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/3.jpeg" data-size="946x1539" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.07.2023 [1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.07.2023 [2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.07.2023 [3].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.07.2023 [34].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.07.2023 [35].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [3].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [4].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [23-1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [23-2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [23-3].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [25].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [35 -1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/17.7.23 [35-2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [3].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.07.2023 [5].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.07.2023 [13].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.07.2023 [13] (2).jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.07.2023 [22-23].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [22].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [23].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [34-1].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [34-2].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/18.7.23 [35].jpg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/24.07.2023.jpeg" data-size="1248x1751" class="hide"></a>
+                <a href="ui/images/carriera/2223/p/25.07.2023.jpeg" data-size="1248x1751" class="hide"></a>
+            </li>
+        </ul>
+    </div>
+<div class="clearfix"></div>
+<div class="separator">
+<span class="inline-ball"></span>
+<span class="inline-border"></span>
+<h3 class="season-title ball"><span>2022 / 2023</span></h3>
+</div>
+</div>                
+
+<!-- 21/22 -->
+<div class="career-block season1 animated">
+    <img id="fade-itpic" class="image" src="ui/images/carriera/2122/tl.jpeg">                      
+       
+
+    <div class="box vertical first"> <!--style="@media screen and (max-width : 480px) {padding-top : 440px;}"-->
+        <ul class="season-content content bottom" style="width: 296px;">
+            <li>NAZIONALE ITALIANA</li>
+            <li>Allenatore Under 20</li>
+            <li class="psg">
+                <a href="ui/images/carriera/2122/g/0.jpeg" data-size="910x507" class="show">Gallery</a>
+                <a href="ui/images/carriera/2122/g/1.jpeg" data-size="828x1339" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/2.jpeg" data-size="1440x594" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/3.jpeg" data-size="1439x1464" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/4.jpeg" data-size="1024x683" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/5.jpeg" data-size="1024x768" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/6.jpeg" data-size="2048x1536" title="NORVEGIA 2022" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/7.jpeg" data-size="1440x1799" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/8.jpeg" data-size="2048x1536" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/9.jpeg" data-size="1600x1200" title="NORVEGIA - ITALIA 0-5 [28 marzo 2022]" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/10.jpeg" data-size="594x396" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/11.jpeg" data-size="2048x1536" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/12.jpeg" data-size="1536x2048" class="hide"></a>
+                <a href="ui/images/carriera/2122/g/13.jpeg" data-size="1536x2048" class="hide"></a>
+            </li>
+            <li class="psg">        
+                <a href="ui/images/carriera/2122/video/20-21 polonia - italia.mp4" class="show">Video</a>
+                <a href="ui/images/carriera/2122/video/inghilterra - italia 20-21.mp4" class="hide"></a>
+                <a href="ui/images/carriera/2122/video/inghilterra italia 2020-2021.mp4" class="hide"></a>
+                <a href="ui/images/carriera/2122/video/italia germania 20-21.mp4" class="hide"></a>
+                </li>
+            <li class="psp">
+                <a href="ui/images/carriera/2122/p/0.jpeg" data-size="1462x652" class="show">Press</a>
+                <a href="ui/images/carriera/2122/p/1.jpeg" data-size="" class="hide"></a>
+            </li>
+        </ul>
+    </div>
+<div class="clearfix"></div>
+<div class="separator">
+<span class="inline-ball"></span>
+<span class="inline-border"></span>
+<h3 class="season-title ball"><span>2021 / 2022</span></h3>
+</div>
+</div> 
+
+<!-- 20/21 -->
+<div class="career-block season1 animated">
+    <img id="fade-itpic" class="image" src="ui/images/carriera/2021/tl.jpeg">                      
+       
+
+    <div class="box vertical first"> <!--style="@media screen and (max-width : 480px) {padding-top : 440px;}"-->
+        <ul class="season-content content bottom" style="width: 296px;">
+            <li>NAZIONALE ITALIANA</li>
+            <li>Allenatore Under 20</li>
+            <li>Allenatore Under 21 B</li>
+            <li class="psg">
+                <a href="ui/images/carriera/2021/g/0.jpeg" data-size="828x1339" class="show">Gallery</a>
+                <a href="ui/images/carriera/2021/g/1.jpeg" data-size="640x360" title="AMICHEVOLE NAZIONALE A - UNDER 20 0-1 [COVERCIANO, 5 giugno 2021]" class="hide"></a>
+                <a href="ui/images/carriera/2021/g/2.jpeg" data-size="1024x461" class="hide"></a>
+                <a href="ui/images/carriera/2021/g/3.jpeg" data-size="1024x461" title="UNDER 21 B - IRLANDA 2-0 [ottobre 2020]" class="hide"></a>
+                <a href="ui/images/carriera/2021/g/4.jpeg" data-size="768x1024" class="hide"></a>
+                <a href="ui/images/carriera/2021/g/5.jpeg" data-size="640x360" title="CON ROBERTO MANCINI E MASSIMO BATTARRA" class="hide"></a>
+            </li>
+            <li class="psg">        
+                <a href="ui/images/carriera/2021/video/[2] 20-21 polonia - italia.mp4" class="show">Video</a>
+                </li>
+            <li class="psp">
+                <a href="ui/images/carriera/2021/p/0.jpeg" data-size="413x411" class="show">Press</a>
+                <a href="ui/images/carriera/2021/p/1.jpeg" data-size="562x623" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/2.jpeg" data-size="485x707" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/3.jpeg" data-size="576x886" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/4.jpeg" data-size="1024x339" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/5.jpeg" data-size="946x1874" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/6.jpeg" data-size="946x1928" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/7.jpeg" data-size="946x1239" class="hide"></a>
+                <a href="ui/images/carriera/2021/p/8.jpeg" data-size="946x1721" class="hide"></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="separator">
+        <span class="inline-ball"></span>
+        <span class="inline-border"></span>
+        <h3 class="season-title ball"><span>2020 / 2021</span></h3>
+    </div>
+</div>          
+
+<!-- 19/20 -->
+                <div class="career-block season1 animated">
+                    <img id="fade-itpic" class="image" src="ui/images/carriera/1920/tl.jpg">                      
+                       
+
+                    <div class="box vertical first"> <!--style="@media screen and (max-width : 480px) {padding-top : 440px;}"-->
+                        <ul class="season-content content bottom" style="width: 296px;">
+                            <li>NAZIONALE ITALIANA</li>
+                            <li>Allenatore Under 19</li>
+                            <li class="psg">
+                                <a href="ui/images/carriera/1920/g/0.jpg" data-size="1274x1600" class="show">Gallery</a>
+                                <a href="ui/images/carriera/1920/g/1.jpg" data-size="1170x1600" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/2.jpg" data-size="1600x1154" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/3.jpg" data-size="1600x991" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/4.jpg" data-size="1600x1285" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/5.jpg" data-size="739x739" title="Qualificazioni Europeo. 13/11 Italia Malta 2-0. 16/11 Italia Cipro 2-0. 19/11 Italia Slovacchia 3-0." class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/11.jpg" data-size="1600x1064" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/12.jpg" data-size="1600x1066" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/13.jpg" data-size="1200x1600" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/14.jpg" data-size="1200x1600" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/15.jpg" data-size="1600x1066" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/6.jpg" data-size="640x428" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/7.jpg" data-size="428x640" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/8.jpg" data-size="640x560" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/9.jpg" data-size="640x428" class="hide"></a>
+                                <a href="ui/images/carriera/1920/g/10.jpg" data-size="640x428" class="hide"></a>
+                            </li>
+                            <li class="psp">
+                                <a href="ui/images/carriera/1920/p/1.jpg" data-size="739x1314" class="show">Press</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="separator">
+                        <span class="inline-ball"></span>
+                        <span class="inline-border"></span>
+                        <h3 class="season-title ball"><span>2019 / 2020</span></h3>
+                    </div>
+                </div>
+   
+                </div>
+                <!-- END -->
+                <div class="career-block fake-end">
+                    <div class="box"></div>
+                    <div class="separator">
+                        <span class="inline-ball end"></span>
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+            <!-- TIMELINE ENDED !!!!! -->
+
+        <!-- stats -->
+
+<!-- end main-wrapper -->
+
+<!-- footer : signature -->
+<footer style="height: 0px !important">
+    <!-- <div id="signature" style="float:none !important; position: absolute; left:0; bottom:0"><strong>Alberto Bollini</strong></div> -->
+    <div id="terms" style="float:none !important; position: absolute; right:0; bottom:0">© 2023 ALBERTO BOLLINI</div>
+</footer>
+<!-- GA -->
+<!-- <script src="https://cdn.jsdelivr.net/combine/npm/lightgallery,npm/lg-autoplay,npm/lg-fullscreen,npm/lg-hash,npm/lg-pager,npm/lg-share,npm/lg-thumbnail,npm/lg-video,npm/lg-zoom"></script>-->
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides.
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        lgo = {thumbnail:false, fullScreen:false, pager:false, zoom: false, share:false, youtubePlayerParams: {rel:0}};
+        $("#v1213").lightGallery(lgo);
+        $("#v1112").lightGallery(lgo);
+        $("#v1314p").lightGallery(lgo);
+        $("#v1011").lightGallery(lgo);
+        $("#v1314a").lightGallery(lgo);
+        $("#v0708").lightGallery(lgo);
+        $("#v9697").lightGallery(lgo);
+        $("#v0001").lightGallery(lgo);
+
+        // parse slide data (url, title, size ...) from DOM elements
+        // (children of gallerySelector)
+        var parseThumbnailElements = function(el) {
+            if(!el) {
+                return
+            }
+
+            var thumbElements = el.childNodes,
+                numNodes = thumbElements.length,
+                items = [],
+                linkEl,
+                size,
+                item;
+
+            for(var i = 0; i < numNodes; i++) {
+
+                linkEl = thumbElements[i];
+
+                // include only element nodes
+                if(linkEl.nodeType !== 1) {
+                    continue;
+                }
+
+                if(linkEl.getAttribute('data-size') === null){
+                    size = '2000x2000'.split('x');
+                } else {
+                    size = linkEl.getAttribute('data-size').split('x');
+                }
+
+                // create slide object
+                item = {
+                    src: linkEl.getAttribute('href'),
+                    w: parseInt(size[0], 10),
+                    h: parseInt(size[1], 10)
+                };
+
+                if(linkEl.getAttribute('title') !== null) {
+                    item.title = linkEl.getAttribute('title');
+                }
+
+                item.el = linkEl; // save link to element for getThumbBoundsFn
+                items.push(item);
+            }
+
+            return items;
+        };
+
+        // triggers when user clicks on thumbnail
+        var onThumbnailsClick = function(e) {
+            e = e || window.event;
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+            var eTarget = e.target || e.srcElement;
+
+            var clickedGallery = eTarget.parentNode;
+            console.log(clickedGallery);
+            openPhotoSwipe( 0, clickedGallery );
+            return false;
+        };
+
+        // parse picture index and gallery index from URL (#&pid=1&gid=2)
+        var photoswipeParseHash = function() {
+            var hash = window.location.hash.substring(1),
+            params = {};
+
+            if(hash.length < 5) {
+                return params;
+            }
+
+            var vars = hash.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                if(!vars[i]) {
+                    continue;
+                }
+                var pair = vars[i].split('=');
+                if(pair.length < 2) {
+                    continue;
+                }
+                params[pair[0]] = pair[1];
+            }
+
+            if(params.gid) {
+                params.gid = parseInt(params.gid, 10);
+            }
+
+            return params;
+        };
+
+        var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+            var pswpElement = document.querySelectorAll('.pswp')[0],
+                gallery,
+                options,
+                items;
+
+            items = parseThumbnailElements(galleryElement);
+
+            // define options (if needed)
+            options = {
+
+                // define gallery index (for URL)
+                galleryUID: galleryElement.getAttribute('data-pswp-uid')
+
+            };
+
+            // PhotoSwipe opened from URL
+            if(fromURL) {
+                if(options.galleryPIDs) {
+                    // parse real index when custom PIDs are used
+                    // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                    for(var j = 0; j < items.length; j++) {
+                        if(items[j].pid == index) {
+                            options.index = j;
+                            break;
+                        }
+                    }
+                } else {
+                    // in URL indexes start from 1
+                    options.index = parseInt(index, 10) - 1;
+                }
+            } else {
+                options.index = parseInt(index, 10);
+            }
+
+            // exit if index not found
+            if( isNaN(options.index) ) {
+                return;
+            }
+
+            if(disableAnimation) {
+                options.showAnimationDuration = 0;
+            }
+
+            // Pass data to PhotoSwipe and initialize it
+            gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
+        };
+
+    var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+        // loop through all gallery elements and bind events
+        var galleryElements = document.querySelectorAll( gallerySelector );
+
+        for(var i = 0, l = galleryElements.length; i < l; i++) {
+            galleryElements[i].setAttribute('data-pswp-uid', i+1);
+            galleryElements[i].onclick = onThumbnailsClick;
+        }
+
+
+
+        // Parse URL and open gallery if it contains #&pid=3&gid=1
+        var hashData = photoswipeParseHash();
+        if(hashData.pid && hashData.gid) {
+            openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+        }
+    };
+
+    // execute above function
+    initPhotoSwipeFromDOM('.psg');
+    initPhotoSwipeFromDOM('.psp');
+    
+
+    // bind TL
+    var galleryElements = document.querySelectorAll( '.box' );
+    var onTLClick = function(e) {
+        console.log(e);
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        var clickedGallery = eTarget.querySelectorAll('.psg')[0];
+        openPhotoSwipe( 0, clickedGallery );
+        return false;
+    };
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', 1);
+        galleryElements[i].onclick = onTLClick;
+    }
+
+    // Sizes
+    /*h = document.documentElement.outerHTML
+    var galleryElements = document.querySelectorAll( '.show, .hide' );
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        //galleryElements[i].setAttribute('data-pswp-uid', 1);
+        //console.log(galleryElements[i].href)
+        if (galleryElements[i].href) {
+          var img = new Image();
+          img.i = i
+          var c = 0
+          img.onload = function(){
+            var p = this.src.replace('http://localhost:5000/','')
+            var ds = this.width + 'x' + this.height
+            //console.log(p, ds)
+            h = h.replace(p+'"',p+'" data-size="'+ds+'"')
+            c += 1
+            if(c==i-2) console.log(h)
+          };
+          img.src = galleryElements[i].href
+        };
+    }*/
+
+    });
+</script>
+
+
+</body>
+</html>
