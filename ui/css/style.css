@@ -3310,3 +3310,10 @@ table.stats thead th {
 table.stats tfoot {
   font-weight: bold;
 }
+@media screen and (max-width: 768px) {
+  .mobile-menu ul li a {
+    line-height: 2.2em;
+    display: block;
+    padding: 8px 0;
+  }
+}
