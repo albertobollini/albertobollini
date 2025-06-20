@@ -357,6 +357,14 @@ background: #111 url('../images/copertina\ index.jpg') no-repeat top center ;
   background : #111 url('../images/carriera/copertina\ carriera.jpg') no-repeat top center;
 }
 
+.background.nazionale {
+  z-index    : -5;
+  position   : fixed;
+  top        : 0;
+  left       : 0;
+  background : #111 url('../images/carriera/Nazionae-bg1920x1181.jpg') no-repeat top center;
+}
+
 .background.palmares {
   z-index    : -5;
   position   : fixed;
