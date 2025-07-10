@@ -233,7 +233,7 @@ a {
   position   : fixed;
   top        : 0;
   left       : 0;
-  background : #000 url('ui/images/palmares/2024/panchinaoro-02-1600x1066.jpg') no-repeat top center;
+  background : #000 url('ui/images/palmares/2024/panchinaoro-bghp-1600x930.jpg') no-repeat top center;
 }
 
 .background.home.b404 {
@@ -346,7 +346,7 @@ z-index: -5;
 position: fixed;
 top: 0;
 left: 0;
-background: #111 url('../images/palmares/2024/panchinaoro-02-1600x1066.jpg') no-repeat top center ;
+background: #111 url('ui/images/palmares/2024/panchinaoro-bghp-1600x930.jpg') no-repeat top center ;
 }
 
 .background.carriera {
